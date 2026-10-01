@@ -1,0 +1,128 @@
+=== image_003 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao Veras de Sigueira,  Jaralm Prlmavera, bR  Salgueiro-PE
+Fone (87)3871-8900
+Paciente: : LINDALVA MARIA DA SILVA ID Estabelecimento:
+Data de Nascimento: 24/04/1956 70,0 anos Médico que CARLA FEITOSA
+Altura / Peso: 153,0 cm 55,0 kg Medido: 13/05/2026 08:22:49 (13,60)
+
+--- site_title ---
+TL'C7IL
+Referencia de Densitometria: Total Tendencia: Total  iBMD)
+(BMD) %Mudanca em relagao a anterior
+YA T-score iPontuacäo Z AM
+
+--- table_header ---
+Regiao (g/cm2) (%) T-score (%) Z-score
+Colo 0,717 69 -2,3 93 -0,4
+Wards 0,632 69 -2,1 105 0,2
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) z-score
+Colo 0,717 69 -2,3 93 -0,4
+Wards 0,632 69 -2,1 105 0,2
+Troc. 0,636 75 -1,9 96 -0,2
+Diäfise 0,970
+Total 0,803 80 -1,6 101 0,1
+Tendéncia: Total
+Mudar vs
+1,6
+Medido Idade BMD Anterior Anterior
+Data (anos) (g/cm2) (g/cm2) (%)
+13/05/2026 70,0 0,803 -0,047 * -5,5 *
+05/09/2024 68,3 0,850
+* -Indica mudancas significativas com base no intervalo de confianca 95%.
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1DP ( 0,012 g/cm2 para
+Fémur direito Total)
+2 -EUA (Combinacäo NHANES (idades 20-30) / Lunar (idades 20-40)) Fémur Populacäo de
+Referéncia (v112)
+
+--- comments ---
+
+
+--- footnotes ---
+ Imageminao destinada a diagnöstico *:-Indicaimudancas significativas comibaseinointervalode confianga'95%.
+Impresso: 13/05/2026 16:43:09((13:60)76:0 38:76:52:7/8 0:00:-1 00  -Estatisticamente 68% de exames irepetidos situam se dentro de 1Dp (( 012 g/cm2ipara
+0/60x1,20 16,3:%Gordura=41,1% IFémur (áireito Total)
+Angulo do(adlo((graus)= 55 Referendia(v112)
+Nome de arquivo: :3f3zet39b5.ntx :3 -Gorrespondénaa em Idade, Peso((mulheres 25-il00ikg), Etnia
+lModode yarreduraFino 50iGy (6 BMD ipadronizadaipara Total é 7.55img/cm2.
+11 organizagaolMundialde Saude- Definicao de Qsteoporosee asteopeniaiparalMulheres
+Brancas: INormal = T-saorelgualiou superior a 1/o sD; asteopenia = T saore entre -1  e -2,5
+apenas :guando éusadoumlbancode dados deireferencia deimulheribranca jovem e saudável
+Iparadeterminar ios T scores.)
+
+--- _manufacturer ---
+ge
+
+=== image_004 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao Veras de Sigueira,  Jardim Primavera, BR  Salgueiro-PE
+Fone (87)3871-8900
+Paciente: : LINDALVA MARIA DA SILVA ID Estabelecimento:
+Data de Nascimento: 24/04/1956 70,0 anos Médico que CARLA FEITOSA
+Altura / Peso: 153,0 cm 55,0 kg Medido: 13/05/2026 08:27:43 (13,60)
+
+--- site_title ---
+Referencia de IDensitometria: lL2-L4 (BMD)
+YA T-score Pontuag&o Z AM
+
+--- table_header ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiäo (g/cm2) (%) T-score (%) Z-score
+L1 0,689 61 -3,7 77 -1,7
+L2 0,777 65 -3,5 81 -1,5
+L3 0,852 71 -2,9 89 6'0-
+L4 0,974 81 -1,9 102 0,1
+L1-L2 0,734 63 -3,6 79 -1,6
+L1-L3 0,777 66 -3,3 84 -1,3
+L1-L4 0,833 71 -2,9 89 6'0-
+L2-L3 0,817 68 -3,2 85 -1,2
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+L1 0,689 61 -3,7 77 -1,7
+L2 0,777 65 -3,5 81 -1,5
+L3 0,852 71 -2,9 89 6'0-
+L4 0,974 81 -1,9 102 0,1
+L1-L2 0,734 63 -3,6 79 -1,6
+L1-L3 0,777 66 -3,3 84 -1,3
+L1-L4 0,833 71 -2,9 89 6'0-
+L2-L3 0,817 68 -3,2 85 -1,2
+L2-L4 0,874 73 -2,7 91 -0,7
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1Dp ( 0,010 g/cm2 para
+Coluna AP L2-L4)
+2 -EUA (Combinacao NHANES (idades 20-30) / Lunar (idades 20-40)) Coluna AP Populacao de
+Referéncia (v112)
+3 -Correspondéncia em Idade, Peso (mulheres 25-100 kg), Etnia
+
+--- comments ---
+
+
+--- footnotes ---
+Imageminao destinada adiagnöstico  -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00l g/cm2ipara
+(Goluna.APiL2-L4)
+0:60x1,20 20:8:%Gordura=42/0% 2-EUA((CombinacaolNHANES(idades 20-30)/ILunar i(idades 20-40)) Gdluna/AP Populacao de
+Referéncia(v112)
+INome de arauiva: 3f3zet39b5:ntx :3 -Gorrespondéncia em Idade, Reso(mulheres.25-i100lkg), Etnia
+(6 -BMDpadronizada/parall2-L4é 832mg/cm2.
+IModode warredura: Padrao :20;0Gy
+11 organizagaolMundialde Saude- Definicao de(osteoporoseie asteopeniaiparalMulheres
+Brancas: INormal = T-scoreiigualou :superiora-i0sD asteopenia = T scoreentre-i:0e 2 5
+SD asteoporose = T saoreiigualou inferiora 2/5 SD i(As definigoes da(oMS:saoiaplicäveis
+apenas iquandoéusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável
+Ipara(determinarios T scores.)
+
+--- _manufacturer ---
+ge

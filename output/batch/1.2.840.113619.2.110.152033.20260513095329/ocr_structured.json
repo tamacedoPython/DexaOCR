@@ -1,0 +1,18 @@
+{
+  "lumbar_bmd": 1.08,
+  "lumbar_t_score": -0.8,
+  "lumbar_z_score": 0.1,
+  "lumbar_young_adult_percent": 92,
+  "femur_neck_bmd": 0.915,
+  "femur_neck_t_score": -0.6,
+  "femur_neck_z_score": 0.2,
+  "femur_neck_young_adult_percent": 88,
+  "femur_total_bmd": 1.014,
+  "femur_total_t_score": 0.0,
+  "femur_total_z_score": 0.8,
+  "ward_bmd": 0.702,
+  "ward_t_score": -1.6,
+  "troc_bmd": 0.831,
+  "troc_t_score": -0.2,
+  "femur_side": "right_femur"
+}

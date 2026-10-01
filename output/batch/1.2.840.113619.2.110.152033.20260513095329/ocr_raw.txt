@@ -1,0 +1,124 @@
+=== image_003 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao Veras de Sigueira,  Jaraim Primavera, bR  Salgueiro-pE
+Fone (87)3871-8900
+Paciente:  CLEONICE MARIA DA SILVA ALVES ID Estabelecimento:
+Data de Nascimento: 18/12/1966 59,4 anos Médico que WAYDSON
+Altura / Peso: 155,0 cm 70,5 kg Medido: 13/05/2026 09:53:29 (13,60)
+
+--- site_title ---
+Referencia de lDensitometria: Iotal :dBNlD)
+YA T-score Pontuacao Z AM
+
+--- table_header ---
+Regiao (g/cm2) (%) T-score (%) Z-score
+Colo 0,915 88 6'0- 103 0,2
+Wards 0,702 77 -1,6 97 -0,2
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+Colo 0,915 88 6'0- 103 0,2
+Wards 0,702 77 -1,6 97 -0,2
+Troc. 0,831 98 -0,2 109 0,6
+Diäfise 1,197
+Total 1,014 101 0,0 111 0,8
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1Dp (t 0,012 g/cm2 para
+Fémur direito Total
+2 -EUA (Combinacao NHANES (idades 20-30) / Lunar (idades 20-40)) Femur Populacäo de
+Referéncia (v112)
+3 -Correspondéncia em Idade, Peso (mulheres 25-100 kg), Etnia
+
+--- comments ---
+
+
+--- footnotes ---
+ Imageminao destinada a diagnöstico  -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00112 g/cm2ipara
+iFémur(áireito Total)
+Impresso: 13/05/2026 16:54:52(13/60)76:1/50:153:04:3/9 0:00:-1 00
+0/60x1,20 18,3:%Gordura=347%
+Referéncia(v112)
+0:00:0/000/0010/00 3 -Gorrespondéndia em Idade, Reso((mtilheres:25-100ikg), Etnia
+Angulo do(adlo (graus)= 51
+(6 -BMD ipadronizadaipara Total é 961 img/cm2.
+Nome de arquivo: 6p7zet39b5:ntx
+IModode yarredura: Padrao 200Gy 11 rganizacaolMundialde Saude- Definicao de@steoporoseieiasteopeniaiparalMulheres
+Brancas: iNormal = T-scoreiigualou :superiora-i0sD asteopenia = T scoreentre-t:0e 2 5
+SD asteoporose = T saoreiigualou inferiora 2/5 SD i(As definigoes da(oMS:saoiaplicäveis
+apenas iquandoéusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável
+Ipara(determinarios T scores.)
+
+--- _manufacturer ---
+ge
+
+=== image_004 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao Veras de Sigueira,  Jaraim Primavera, bR  Salgueiro-pE
+Fone (87)3871-8900
+Paciente:  CLEONICE MARIA DA SILVA ALVES ID Estabelecimento:
+Data de Nascimento: 18/12/1966 59,4 anos Médico que WAYDSON
+Altura / Peso: 155,0 cm 70,5 kg Medido: 13/05/2026 09:56:27 (13,60)
+7CUCf Sv7 C
+
+--- site_title ---
+13007
+Referencia de IDensitometria: lL2-L4 (BMD)
+YA T-score Pontuag&o Z AM
+
+--- table_header ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+L1 0,995 88 -1,1 98 -0,2
+L2 1,091 91 6'0- 101 0,0
+L3 1,116 93 -0,7 103 0,3
+L4 1,122 93 -0,7 103 0,3
+L1-L2 1,044 90 -1,0 99 -0,1
+L1-L3 1,066 91 6'0- 101 0,1
+L1-L4 1,080 92 -0,8 101 0,1
+L2-L3 1,102 92 8'0- 102 0,1
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etäria
+Regiao (g/cm2) (%) T-score (%) Z-score
+L1 0,995 88 -1,1 98 -0,2
+L2 1,091 91 6'0- 101 0,0
+L3 1,116 93 -0,7 103 0,3
+L4 1,122 93 -0,7 103 0,3
+L1-L2 1,044 90 -1,0 99 -0,1
+L1-L3 1,066 91 6'0- 101 0,1
+L1-L4 1,080 92 -0,8 101 0,1
+L2-L3 1,102 92 -0,8 102 0,1
+L2-L4 1,109 92 -0,8 102 0,2
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1Dp ( 0,010 g/cm2 para
+Coluna AP L2-L4)
+2 -EUA (Combinacao NHANES (idades 20-30) / Lunar (idades 20-40)) Coluna AP Populacao de
+Referéncia (v112)
+3 -Correspondéncia em Idade, Peso (mulheres 25-100 kg), Etnia
+
+--- comments ---
+
+
+--- footnotes ---
+Imageminao destinada a diagnöstico  -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00l g/cm2ipara
+(Goluna.APiL2-L4)
+2-EUA((CombinacaolNHANES(idades 20-30)/ILunar i(idades 20-40)) Gdluna/AP Populacao de
+0:60xi1,20:22:0%Gordura=45:0% Referéncia(v112)
+INome de arauivo: 6p7zet39bs:ntx :3 -Gorrespondéncia em Idade, Reso((mtilheres.25-i100ikg), Etnia
+IModode warredura: Padrao :20;0Gy (6.:BMDpadronizadaparall2-L4é i1.056img/cm2.
+11 organizagaolMundialde Saude- Definicao de (@steoporoseie asteopeniaiparalMulheres
+Brancas: INormal = T-scoreiigualou :superiora-i0 sD asteopenia = T scoreentre-i:0e 2 5
+SD asteoporose = T saoreiigualou inferiora 2/5 SD i(As definigoes da(oMS:saoiaplicäveis
+apenas iquandoéusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável
+Ipara(determinarios T scores.)
+
+--- _manufacturer ---
+ge

@@ -1,0 +1,138 @@
+=== image_003 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao Veras de Sigueira, alm Prmmaverar pK  Salgueiro-pE
+Fone (87)3871-8900
+Paciente: " MARIA DE FATIMA PIRES DE SA ID Estabelecimento:
+Data de Nascimento: 14/04/1959 67,0 anos Médico que ALDO LEITE
+Altura / Peso: 153,0 cm 79,2 kg Medido: 13/05/2026 09:41:10 (13,60)
+
+--- site_title ---
+Referencia de Densitometria: Total Tendencia: Total  iBMD)
+(BMD) %Mudanca em relagao a anterior
+YA T-score iPontuacäo Z AM
+
+--- table_header ---
+Regiao (g/cm2) (%) T-score (%) Z-score
+Colo 0,657 63 -2,7 76 -1,5
+Wards 0,541 59 -2,8 79 -1,1
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+Colo 0,657 63 -2,7 76 -1,5
+Wards 0,541 59 -2,8 79 -1,1
+Troc. 0,652 77 -1,7 87 6'0-
+Diäfise 0,954
+Total 0,796 79 -1,7 90 -0,7
+Tendencia: Total
+Mudar vs
+1,6
+Medido Idade BMD Anterior Anterior
+Data (anos) (g/cm2) (g/cm2) (%)
+13/05/2026 67,0 0,796 -0,042 * -5,0 *
+25/07/2024 65,2 0,838 0,066 * 8,5 *
+03/01/2020 60,7 0,772
+* -Indica mudancas significativas com base no intervalo de confianca 95%.
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1DP ( 0,012 g/cm2 para
+Fémur direito Total)
+2 -EUA (Combinacäo NHANES (idades 20-30) / Lunar (idades 20-40)) Fémur Populacäo de
+Referéncia (v112)
+
+--- comments ---
+
+
+--- footnotes ---
+ Imageminao destinada a diagnöstico *:-Indicaimudancas significativas comibaseinointervalode confianga'95%.
+Impresso: 13/05/2026 17:12:13(13/60)76:1/50:153:04:3:9 0:00:-1 00  -Estatisticamente 68% de exames irepetidos situam se dentro de 1Dp (( 012 g/cm2ipara
+0/60xi1,20 20,1:%Gordura=35/5% IFémur (áireito Total)
+0:000/000/0010/00
+Angulo do(aolo (graus)= 50 Referendia(v112)
+Nome de arquivo: r07zet39b5.ntx :3 -Gorrespondénaia em Idade, Peso((mulheres 25-il00ikg), Etnia
+IModode yarredura: Padrao 200IGy (6  BMD /padronizadaipara Total é 748img/cm2.
+1 organizagaolMundialde Saude- Definicao deQsteoporosee asteopeniaiparalMulheres
+Brancas: INormal = T-saoreigualiou superior a 1/o sD: steopenia = T saore entre -1  e -2,5
+apenas :guando éusadoumlbancode dados deireferencia deimulheribranca jovem e saudável
+Iparadeterminar ios T scores.)
+
+--- _manufacturer ---
+ge
+
+=== image_004 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao Veras de Sigueira, alm Prmmaverar pK  Salgueiro-pE
+Fone (87)3871-8900
+Paciente: " MARIA DE FATIMA PIRES DE SA ID Estabelecimento:
+Data de Nascimento: 14/04/1959 67,0 anos Médico que ALDO LEITE
+Altura / Peso: 153,0 cm 79,2 kg Medido: 13/05/2026 09:44:13 (13,60)
+
+--- site_title ---
+7.33.70
+Referéncia de IDensitometria: IL2-L4 Tendéncia: lL2-L4 :(BMD)
+(BMD) %Mudanga em relagäo a anterior
+YA T-score :Pontuacäo Z AM
+
+--- table_header ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiäo (g/cm2) (%) T-score (%) Z-score
+L1 0,839 74 -2,4 85 -1,3
+L2 0,904 75 -2,5 85 -1,3
+L3 0,969 81 -1,9 91 -0,8
+L4 0,828 69 -3,1 78 -2,0
+L1-L2 0,870 75 -2,5 85 -1,3
+L1-L3 0,899 77 -2,3 87 -1,1
+L1-L4 0,879 75 -2,5 84 -1,4
+L2-L3 0,934 78 -2,2 88 -1,1
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+L1 0,839 74 -2,4 85 -1,3
+L2 0,904 75 -2,5 85 -1,3
+L3 0,969 81 -1,9 91 -0,8
+L4 0,828 69 -3,1 78 -2,0
+L1-L2 0,870 75 -2,5 85 -1,3
+L1-L3 0,899 77 -2,3 87 -1,1
+L1-L4 0,879 75 -2,5 84 -1,4
+L2-L3 0,934 78 -2,2 88 -1,1
+L2-L4 0,894 75 -2,5 84 -1,4
+Tendencia: L2-L4
+1,6 Mudar vs
+Medido Idade BMD Anterior Anterior
+Data (anos) (g/cm2) (g/cm2) (%)
+13/05/2026 67,0 0,894 0,027 3,1
+25/07/2024 65,2 0,867 0,014 1,6
+03/01/2020 60,7 0,853
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1DP ( 0,010 g/cm2 para
+Coluna AP L2-L4)
+2 -EUA (Combinacäo NHANES (idades 20-30) / Lunar (idades 20-40)) Coluna AP Populacao de
+Referéncia (v112)
+3 -Correspondéncia em Idade, Peso (mulheres 25-100 kg), Etnia
+
+--- comments ---
+
+
+--- footnotes ---
+Imageminao destinadaadiagnöstico  -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00l g/cm2ipara
+(Goluna.APiL2-L4)
+0:60x1,20 24,3:%Gordura=47,1% 2-EUA((CombinacaolNHANES(idades 20-30)/ILunar i(idades 20-40)) Gdluna/AP Populacao de
+Referéncia(v112)
+INome de arauivo: ir07zet39b5.ntx :3 -Gorrespondéncia em Idade, Reso(mulheres 25-i100lkg), Etnia
+(6 -BMDipadronizadaiparall2-L4é852img/cm2.
+IModode warredura: Padrao :20;0Gy
+11 organizagaolMundialde Saude- Definicao de(osteoporoseie asteopeniaiparalMulheres
+Brancas: INormal = T-scoreiigualou superiora-i0sD asteopenia = T scoreentre-i:0e 2 5
+SD asteoporose = T saoreiigualou inferiora 2/5 SD i(As definigoes da(oMS:saoiaplicäveis
+apenas iquandoéusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável
+Ipara(determinarios T scores.)
+
+--- _manufacturer ---
+ge

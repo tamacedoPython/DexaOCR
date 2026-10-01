@@ -1,0 +1,124 @@
+=== image_003 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao Veras de Sigueira,  alm Prmmaverar pK  Salgueiro-PE
+Fone (87)3871-8900
+Paciente:  SILVANA M ALVES DECARVALHO ID Estabelecimento:
+Data de Nascimento: 05/05/1974 51.9 anos Médico que JAILSOBN JOSE
+Altura / Peso: 156,0 cm 57,0 kg Medido: 16/04/2026 09:51:45 (13,60)
+21012022
+
+--- site_title ---
+HONPGIIPIIY 7/ 2VZO
+Referéncia de IDensitometria: IL2-L4 Tendéncia: lL2-L4 :(BMD)
+%Mudanca em relagao a anterior
+(BMD)
+YA T-score :Pontuacäo Z AM
+
+--- table_header ---
+(g/cm2) (%) T-score (%) z-score
+Regiao
+L1 0,732 65 £'2- 71 -2,5
+5.5 71
+
+--- table_data ---
+L1 0,732 65 -3,3 71 -2,5
+L2 0,783 65 -3,5 71 -2,7
+L3 0,802 67 -3,3 73 -2,5
+L4 0,811 68 -3,2 74 -2,4
+L1-L2 0,758 65 -3,4 71 -2,6
+L1-L3 0,774 66 -3,3 72 -2,5
+L1-L4 0,784 66 -3,3 72 -2,5
+L2-L3 0,793 66 -3,4 72 -2,6
+L2-L4 0,799 67 -3,3 73 -2,5
+Tendencia: L2-L4
+Mudar vs
+1,6
+Medido Idade BMD Anterior Anterior
+Data (anos) (g/cm2) (g/cm2) (%)
+51,9 0,799 -0,323 * -28,8 *
+16/04/2026
+23/08/2019 45,3 1,122
+
+--- comments ---
+
+
+--- footnotes ---
+Imagemináo destinada a diagnöstico *:-Indicaimudancas significativasccomibaseinointervalo rde confianga 95%.
+Impresso: 16/04/2026 1109:24((13:60)76:1 50:76:52:7:80:00:-1:00  -Estatisticamente 68% de examesirepetidos situam se dentro de 1Dp ( :01 g/cm2ipara
+Coluna APiL2-L4)
+(0:60x1,20 :1:9/5%Gordura=39,1%
+2:EUA((GombinacaolNHANES (idades 20-30)7 Iuunar i(idades.20-40)) Golüna/AP Populacaode
+0:00:0/000/0010/00
+Referendia(v112)
+Nome dearauiva: lie7ldt39b5.ntx
+:3 :-Gorrespondénaia em Idade, Pesot(mulheres 25-il00ikg), Etnia
+IModode warredura: Espesso 4i,0!Gy
+(6  BMDipadronizadaparall2-L4 é 76i lmg/cm2.
+11 organizacaolMundialde Saude- Definicao de Qsteoporosee asteopeniaiparalMulheres
+siaaeideogsswoepseosiuapse as smeaouapulinopnfaaosl =csoodoasoas
+apenas :guando éusadoumlbancode dados deireferencia deimulheribranca jovem e saudável
+Iparadeterminar ios T scores.)
+
+=== image_004 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao Veras de Sigueira,  alm Prmmaverar pK  Salgueiro-PE
+Fone (87)3871-8900
+Paciente:  SILVANA M ALVES DECARVALHO ID Estabelecimento:
+Data de Nascimento: 05/05/1974 51.9 anos Médico que JAILSOBN JOSE
+Altura / Peso: 156,0 cm 57,0 kg Medido: 16/04/2026 09:58:06 (13,60)
+
+--- site_title ---
+LV.ZO.Q7
+Referencia de Densitometria: Total Tendencia: Total  iBMD)
+%Mudanca em relagao a anterior
+(BMD
+YA T-score Pontuacäo Z AM
+
+--- table_header ---
+Regiäo (g/cm2) (%) (%)
+T-score Z-score
+0,653 63 -2,8 73 -1,7
+Colo
+
+--- table_data ---
+Colo 0,653 63 -2,8 73 -1,7
+Wards 0,558 61 -2,7 74 -1,5
+Troc. 0,463 54 -3,4 61 -2,6
+Diäfise 0,881
+1
+Total 0,703 70 -2,4 77 -1,7
+Tendéncia: Total
+Mudar vs
+1,6
+Medido Idade BMD Anterior Anterior
+Data (anos) (g/cm2) (g/cm2) (%)
+51,9 0,703 -0,296 * -29,6 *
+16/04/2026
+23/08/2019 45,3 0,999
+
+--- comments ---
+
+
+--- footnotes ---
+Imagemináo destinadaadiagnöstico *:-Indicaimudancas significativas comibaseinointervalode confianga'95%.
+Impresso: 16/04/2026 1109:30 ((13:60)76:0 38:76:52:7/8 0:00:-100  -Estatisticamente 68% de exames irepetidos situam-se dentro de 1Dp ( 0:012 g/cm2ipara
+0:60xi1,20 16;3:%Gordura=35:7% IFémur (áireito Total)
+0:00:0/000/0010/00
+Referendia(v112)
+Angulo do(adlo (graus)= 46
+:3 -Gorrespondénala em Idade, Peso((mulheres 25-l00ikg), Etnia
+Werifique se iexisterespago suficiente de separagaoientreipelve:e diáfise.
+(6 --BMD /padronizadapara Total é 657img/cm2.
+Nome deiarguiva: lie7ldt39b5.ntx
+11 organizagaolMundialde Saude- Definicao de Qsteoporosee asteopeniaiparalMulheres
+Modode ivarredura lFino 'S;0ipGy
+Brancas: INormal = T saoreigualiou superiora -10 sD; Qsteopenia = T scorerentre 1  e -2,5
+siaaeideogsswoepseosiuapse tas smeaouapulinopnfaaosl = csoodoasoas
+apenas :guando éusadoumlbancode dados deireferencia deimulheribranca jovem e saudável
+Ipara determinar os T scores.)

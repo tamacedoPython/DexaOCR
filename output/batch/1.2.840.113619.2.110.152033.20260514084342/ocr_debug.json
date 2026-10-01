@@ -1,0 +1,72 @@
+{
+  "image_004": {
+    "header": "UPAE-DENSITOMETRIA",
+    "patient_info": "Rua Joao Veras de Sigueira,  aln Prnmavera, bK  Salgueiro-pE\nFone (87)3871-8900\nPaciente: \", MARIA ROSA DOS SANTOS BARROS ID Estabelecimento:\nData de Nascimento: 13/05/1950 76.0 anos Médico que ALDO LEITE\nAltura / Peso: 143,0 cm 58,4 kg Medido: 14/05/2026 08:43:42 (13,60)",
+    "site_title": "Referencia de Densitometria: Total Tendencia: Total  BMD)\n(BMD) %Mudanca em relagao a anterior\nYA T-score iPontuacäo Z AM",
+    "table_header": "Regiao (g/cm2) (%) T-score (%) Z-score\nColo 0,665 64 -2,7 89 -0,6\nWards 0,604 66 -2,4 103 0,1",
+    "table_data": "1,6 2 3\nBMD Jovem Adulto Corr. Etaria\nRegiao (g/cm2) (%) T-score (%) Z-score\nColo 0,665 64 -2,7 89 -0,6\nWards 0,604 66 -2,4 103 0,1\nTroc. 0,619 73 -2,0 96 -0,2\nDiáfise 0,882\nTotal 0,758 75 -2,0 99 0,0\nTendencia: Total\nMudar vs\n1,6\nMedido Idade BMD Anterior Anterior\nData (anos) (g/cm2) (g/cm2) (%)\n14/05/2026 76,0 0,758 0,003 0,4\n30/05/2024 74,0 0,755\n1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1Dp ( 0,012 g/cm2 para\nFémur direito Total)\n2 -EUA (Combinacao NHANES (idades 20-30) / Lunar (idades 20-40)) Femur Populacäo de\nReferéncia (v112)\n3 -Correspondéncia em Idade, Peso (mulheres 25-100 kg), Etnia",
+    "comments": "",
+    "footnotes": " Imageminao destinada a diagnöstico  -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00112 g/cm2ipara\nImpresso: 14/05/2026 12:21:51 ((13:60)76:0 38:76:52:7/80:00:-100 iFémur(áireito Total)\n0:60x1,20 177:%Gordura=42:8%\nReferéncia(v112)\n0:00:0/000/0010/00 3 -Gorrespondéndia em Idade, Reso((mtlheres 25-i100ikg), Etnia\nAngulo do(adlo (graus)= 49\n(6 BMDipadronizadaipara Total é7i1 img/cm2.\nNome de arquivo: jizoft39b5.ntx\nlModode yarreduraFino i50Gy 1l rganizacaolMundialde Saude- Definicao de@steoporoseieiasteopeniaiparalMulheres\nBrancas: iNormal = T-scoreiigualou superiora-i0 sD asteopenia = T scoreentre-t:0e 2 5\nSD asteoporose = T saoreiigualou inferiora 2/5 SD i(As definigoes da(oMS:saoiaplicäveis\napenas iquandoéusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável\nIpara(determinarios T scores.)",
+    "_manufacturer": "ge"
+  },
+  "image_005": {
+    "header": "UPAE-DENSITOMETRIA",
+    "patient_info": "Rua Joao Veras de Sigueira,  aln Prnmavera, bK  Salgueiro-pE\nFone (87)3871-8900\nPaciente: \", MARIA ROSA DOS SANTOS BARROS ID Estabelecimento:\nData de Nascimento: 13/05/1950 76.0 anos Médico que ALDO LEITE\nAltura / Peso: 143,0 cm 58,4 kg Medido: 14/05/2026 08:48:19 (13,60)",
+    "site_title": "Referéncia de IDensitometria: IL2-L4 Tendéncia: IL2-L4 (BMD)\n(BMD) %Mudanca em relagao a anterior\nYA T-score :Pontuacäo Z AM",
+    "table_header": "1,6 2 3\nBMD Jovem Adulto Corr. Etaria\nRegiao (g/cm2) (%) T-score (%) Z-score\nL1 1,020 90 6'0- 114 1,1\nL2 1,128 94 -0,6 117 1,4\nL3 0,994 83 -1,7 103 0,3\nL4 0,969 81 -1,9 101 0,1\nL1-L2 1,072 92 -0,8 116 1,2\nL1-L3 1,045 89 -1,0 112 6'0\nL1-L4 1,022 87 -1,3 109 0,7\nL2-L3 1,058 88 -1,2 110 0,8",
+    "table_data": "1,6 2 3\nBMD Jovem AduIto Corr. Etaria\nRegiao (g/cm2) (%) T-score (%) Z-score\nL1 1,020 90 6'0- 114 1,1\nL2 1,128 94 -0,6 117 1,4\nL3 0,994 83 -1,7 103 0,3\nL4 0,969 81 -1,9 101 0,1\nL1-L2 1,072 92 -0,8 116 1,2\nL1-L3 1,045 89 -1,0 112 0,9\nL1-L4 1,022 87 -1,3 109 0,7\nL2-L3 1,058 88 -1,2 110 0,8\nL2-L4 1,023 85 -1,5 106 0,5\nTendéncia: L2-L4\nMudar vs\n1,6\nMedido Idade BMD Anterior Anterior\nData (anos) (g/cm2) (g/cm2) (%)\n14/05/2026 76,0 1,023 0,078 * 8,3 *\n30/05/2024 74,0 0,945\n* -Indica mudancas significativas com base no intervalo de confianca 95%.\n1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1DP ( 0,010 g/cm2 para\nColuna AP L2-L4)\n2 -EUA (Combinacäo NHANES (idades 20-30) 7 Lunar (idades 20-40)) Coluna AP Populacäo de\nReferéncia (v112)",
+    "comments": "",
+    "footnotes": " Imageminao destinada a diagnöstico * -Indicaimudancas significativasccomibaseinointervalo rde confianga 95%.\nImpresso: 14/05/2026 12:21:44 (13/60)76:1:50:153:04:3:9 0:00:-1 00 1 -Estatisticamente 68% de examesirepetidos situam se dentro de 1Dp ( :01 g/cm2ipara\n0/60xi,20 24/s:%Gordura=42/5% (Cdluna.APiL2-L4)\n0:000/000/0010/00 2:EUA((GombinacaolNHANES (idades 20-30)7 Iuunar i(idades.20-40)) Golüna/AP Populacaode\nNome dearauiva: jizft39bs.ntx Referendia(v112)\nIModode warredura: Padrao :20;0Gy :3 :-Gorrespondénaia em Idade, Pesot(mulheres 25-il00ikg), Etnia\n(6 :BMD ipadronizadaparalL2-L4 é 974img/cm2.\n11 organizagaolMundialde Saude- Definicao de Qsteoporosee asteopeniaiparalMulheres\napenas :guando éusadoumlbancode dados deireferencia deimulheribranca jovem e saudável\nIparadeterminar ios T scores.)",
+    "_manufacturer": "ge"
+  },
+  "image_006": {
+    "header": "UPAE-DENSITOMETRIA",
+    "patient_info": "Rua Joao Veras de Sigueira,  aln Prnmavera, bK  Salgueiro-pE\nFone (87)3871-8900\nPaciente: \", MARIA ROSA DOS SANTOS BARROS ID Estabelecimento:\nData de Nascimento: 13/05/1950 76.0 anos Médico que ALDO LEITE\nAltura / Peso: 143,0 cm 58,4 kg Medido: 14/05/2026 08:57:17 (13,60)",
+    "site_title": "Referéncia de IDensitometria: IRadio Tendéncia: lRadio 33% (BMD)\n33% 1(BMD) %Mudanca em relagao a anterior\nYA T-score iPontuacäo Z AM",
+    "table_header": "1 2 3\nBMD Jovem Adulto Corr. Etaria\nRegiao (g/cm2) (%) T-score (%) Z-score\nRädio UD 0,221 47 -5,5 61 -3,1\nCübito UD 0,104\nRädio 33% 0,463 52 -4,8 68 -2,4\nCübito 33% 0,465\nAmbos UD 0,176 1\nAmbos 33% 0,464\nRädio Total 0,342 50 -5,6 63 -3,2\nCübito Total 0,314",
+    "table_data": "1 2 3\nBMD Jovem Adulto Corr. Etaria\nRegi&o (g/cm2) (%) T-score (%) Z-score\nRädio UD 0,221 47 -5,5 61 -3,1\nCubito UD 0,104\nRadio 33% 0,463 52 -4,8 68 -2,4\nCübito 33% 0,465\nAmbos UD 0,176\nAmbos 33% 0,464\nRädio Total 0,342 50 -5,6 63 -3,2\nCübito Total 0,314\n-\nAmbos Total 0,330\nTendencia: Radio 33%\nMudar vs\n1\nMedido Idade BMD Anterior Anterior\nData (anos) (g/cm2) (g/cm2) (%)\n14/05/2026 76,0 0,463 -0,069 * -13,0 *\n30/05/2024 74,0 0,532\n* -Indica mudancas significativas com base no intervalo de confianca 95%.\n1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1DP ( 0,020 g/cm2 para\nAntebraco Direito Radio 33%)\n2 -EUA (Combinacäo NHANES (idades 20-30) / Lunar (idades 20-40)) Antebraco Populacäo de\nReferéncia (v112)",
+    "comments": "",
+    "footnotes": " Imageminao destinada a diagnöstico *:-Indicaimudancas significativas comibaseinointervalo de confianga'95%.\n -Estatisticamente 68% de exames irepetidos situam se dentro de 1DP ( 0:020 g/cm2ipara\n0:60x1,20:2:7:%Gordura=4 0% Antebrago Direito Radio:33%)\n0:00:0/000/0010/00 2 -EUA((GombinacaoiNHANES (idades 20-30) / ILunar (idades 20-40)) Antebrago Populacao de\nReferencia(vi112)\n(Gomprimento de/Antebrago: :23;8 icm\nNome de arguivor jizoft39b5.ntx .3 -Gorrespondéndia icom Idade, Etnia\nIModode yarredura: Padrao :3,0IGy 'g -Calibragemiltinar iem itso.\n11 organizacaolMundialde Saude- Definicao de Qsteoporosee asteopeniaiparalMulheres\napenas :guando éusadoumlbancode dados deireferencia deimulheribranca jovem e saudável\nIparadeterminar ios T scores.)",
+    "_manufacturer": "ge"
+  },
+  "image_007": {
+    "header": "UPAE-DENSITOMETRIA",
+    "patient_info": "Rua Joao Veras de Sigueira,  aln Prnmavera, bK  Salgueiro-pE\nFone (87)3871-8900\nPaciente: \", MARIA ROSA DOS SANTOS BARROS ID Estabelecimento:\nData de Nascimento: 13/05/1950 76.0 anos Médico que ALDO LEITE\nAltura / Peso: 143,0 cm 58,4 kg Medido: 14/05/2026 08:57:17 (13,60)",
+    "site_title": "12.13.00\nco Direito]",
+    "table_header": "",
+    "table_data": "",
+    "comments": "",
+    "footnotes": "1 -Estatisticamente 68% derexamesirepetidos situam-se dentrode :1DP i( :02 g/cm2ipara.Antebrago Direito Rádio .33%)\n2 -EUA(GombinacaolNHANES (idades 20-30) / iLunar(idades 20-40)) Antebrago Populacao de Referendia(v112)\n:3.Correspondéndiaiaom rdade, Etnia\n9:CalibragemiLunariemiuso.\nNome de arquivo: ji1z0ft39b5!ntx",
+    "_manufacturer": "ge"
+  },
+  "image_008": {
+    "header": "UPAE-DENSITOMETRIA",
+    "patient_info": "Rua Joao Veras de Sigueira, s/l bairro Jaraim Prlmavera, BR  Salgueiro-pE\nFone (87)3871-8900\nPaciente: :, MARIA ROSA DOS SANTOS 8ARROS ID Estabelecimento:\nData de Nascimento:  13/05/1950 76,0 anos Médico que ALDO LEITE\nAltura / Peso: 143,0 cm 58,4 kg Medido: 14/05/2026 08:57:17 (13,60)\nSexo / Etnia: Feminino Branco Analisado: 14/05/2026 12:15:06 (13.60",
+    "site_title": "Tendencia: Antebraco Direito Radio UD\nMudar vs\nIdade 1\nBMD Anterior Anterior",
+    "table_header": "76,0 0,104 -0,049 -32,0\n74,0 0,153\ne 68% de exames repetidos situam-se dentro de 1DP ( 0,020 g/cm2 para Antebraco Direitc\nar em uso.\nendencia: Antebraco Direito Radio 33%o\nMudar vs",
+    "table_data": "76,0 0,104 -0,049 -32,0\n74,0 0,153\ne 68% de exames repetidos situam-se dentro de 1Dp ( 0,020 g/cm2 para Antebraco Direito\nar em uso.\nendencia: Antebraco Direito Radio 33%\nMudar vs\n1\nIdade BMD Anterior Anterior\n(anos) (g/cm2) (g/cm2) (%)\n76,0 0,463 * 690'0- -13,0 *\n74,0 0,532\n 68% de exames repetidos situam-se dentro de 1DP ( 0,020 g/cm2 para Antebraco Direito Radic\nar em uso.\nendéncia: Antebraco Direito Cübito 33%\nMudar vs\n1\nIdade BMD Anterior Anterior\n(soue) (g/cm2) (g/cm2) (%)\n76,0 0,465 -0,013 -2,7\n74,0 0,478",
+    "comments": "Tendencia: Cübito 33% (BMD) Tendéncia: Antebrago Direito Cübito 33%\n%Mudanca em relac&o a anterior Mudar vs\n27 Medido Idade Anterior Anterior",
+    "footnotes": "A97 Ci1I\n14/05/2026 76;0 0,465 -0:013 -2,7\n0 30/05/2024 74;0 0,478\n:2\n740 74;5 750 75:5 76.0 1 -Estatisticamente 68% derexamesirepetidos situam se dentro de 1DP ( 0:020 g/cm2ipara Antebrago Direito\nIldade((anos) (Cübito :33%0)\n 9.:-Catibragemilitinariemit'so.\n * - Indica mudangas significativas .comIbaseino intervalo de iconfianga 95%.",
+    "_manufacturer": "ge"
+  },
+  "image_009": {
+    "header": "UPAE-DENSITOMETRIA",
+    "patient_info": "Rua Joao Veras de Sigueira, s/l bairro Jaraim Prlmavera, BR  Salgueiro-pE\nFone (87)3871-8900\nPaciente: :, MARIA ROSA DOS SANTOS 8ARROS ID Estabelecimento:\nData de Nascimento:  13/05/1950 76,0 anos Médico que ALDO LEITE\nAltura / Peso: 143,0 cm 58,4 kg Medido: 14/05/2026 08:57:17 (13,60)\nSexo / Etnia: Feminino Branco Analisado: 14/05/2026 12:15:06 (13.60",
+    "site_title": "Tendencia: Antebraco Direito Ambos UD\nMudar vs\n1 Anterior\nIdade BMD Anterior",
+    "table_header": "76,0 0,464 -0,042 -8,3\n74,0 0,506\ne 68% de exames repetidos situam-se dentro de 1DP ( 0,020 g/cm2 para Antebraco Direitc\nar em uso.\nendencia: Antebraco Direito Radio Total\nMudar vs",
+    "table_data": "76,0 0,464 -0,042 -8,3\n74,0 0,506\ne 68% de exames repetidos situam-se dentro de 1Dp ( 0,020 g/cm2 para Antebraco Direito\nar em uso.\nendencia: Antebraco Direito Radio Total\nMudar vs\n1\nIdade BMD Anterior Anterior\n(anos) (g/cm2) (g/cm2) (%)\n76,0 0,342 -0,043 -11,2\n74,0 0,385\n 68% de exames repetidos situam-se dentro de 1DP ( 0,020 g/cm2 para Antebraco Direito Radic\nar em uso.\nendéncia: Antebraco Direito Cübito Total\nMudar vs\n1\nIdade BMD Anterior Anterior\n(soue) (g/cm2) (g/cm2) (%)\n76,0 0,314 0,003 1,0\n74,0 0,311",
+    "comments": "Tendéncia: Antebrago Direito Cübito Total\nTendéncia: Cübito Total (BMD)\n%Mudanca em relac&o a anterior Mudar vs\n27 Medido Idade Anterior Anterior",
+    "footnotes": "ata 97 C11\n14/05/2026 76;0 0,314 :0/003 1;0\n.30/05/2024 74;0 0,311\n0\n21\n740 74;5 7510 75:5 7610 1 -Estatisticamente 68% derexamesirepetidos situam se dentro de 1DP ( 0:020 g/cm2ipara Antebrago Direito\nIldade((anos) (Cübito Total)\n 9 :-Caltibragemiltinar emt'so.\n * - Indica mudangas significativas .comIbaseino intervalo de iconfianga 95%.",
+    "_manufacturer": "ge"
+  },
+  "image_010": {
+    "header": "UPAE-DENSITOMETRIA",
+    "patient_info": "Rua Joao Veras de Sigueira, s/l bairro Jaraim Prlmavera, BR  Salgueiro-pE\nFone (87)3871-8900\nPaciente: :, MARIA ROSA DOS SANTOS 8ARROS ID Estabelecimento:\nData de Nascimento:  13/05/1950 76,0 anos Médico que ALDO LEITE\nAltura / Peso: 143,0 cm 58,4 kg Medido: 14/05/2026 08:57:17 (13,60)\nSexo / Etnia: Feminino Branco Analisado: 14/05/2026 12:15:06 (13.60",
+    "site_title": "endencia: Antebraco Direito Ambos Total\nMudar vs\nIdade 1\nBMD Anterior Anterior",
+    "table_header": "",
+    "table_data": "",
+    "comments": "",
+    "footnotes": "*- Indica mudangassignificativas.comibaseino intervalo deiconfianga 95%.",
+    "_manufacturer": "ge"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "image_001": {
+    "header": "UPAE ESCADA\nAV. ENG. ALVES DE SOUZA S/N -CENTRO\nESCADA, PE 55500-000",
+    "patient_info": "Informasoes dopasiente:\nNIARILEIDE CAVALCANTE DA\nNoure:\nSILVA\nID dopaciente: 80947204415\nIdentificador 2:\n:Codigo postal:\nSexo: Female\nEtnia: White\nAltura: 154.0.cm\nPeso: 74.81kg\nDN: 05/261969\nIdade: 56\nIdade da\n51\nnenopausa:\nVedico\nDOUGLAS ALVES\n:requisitante:\nInformaces da varredura:\nData da varredura: May 13.2026 - A05132608\n'Tipode varredura: f Lumbar Spine\n Data da analise: 05/13/2026 13:34\nProtocolo tde analise: Spine\nData do :relatorio: 05/13/2026 13:38",
+    "site_title": "k = 1.133, d0 = 45.8",
+    "table_header": "Resumo dos resultados?\nArea CMO DMO Escore PR.(pico Escore\nAM (pareadopor\nRegiao\n![cm2] [g/cm2] (padrao) idade)\nL1 12.70 13.24 1:043 :0.5 105 1.5 119\nL2 13.19 15.26 1.157 1.2 113 2.3 129\nT.3 15 81 18.87 1 191 10 110 2.3 126",
+    "table_data": "Area CMO DMO Escore PR (pico Escore\nAM (pareadopor\nRegiao\n[cm?] [()]] [g/cm7 T padrao) z idade)\nL1 12.70 13.24 1:043 :0.5 105 1.5 119\nL2 13.19 15.26 1.157 1.2 113 2.3 129\nL3 15.84 18.87 161 1.0 110 2.2 126\nL4 15.37 19:64 1.278 2:0 120 3.2 139\nTotal 57.10 67:01 1.174 1.2 112 2.4 128\nDMOtotalCY 1.0%ACF = 1.028,BCF = 1.009,HH =84i4\nRisco de fratura nao aumentados Classiicacao da OMS: Normal",
+    "comments": "Versao do software: 13.6.1.3 Risco de fatura nao aumentado, Classificacaoda OMS: Normal\nComment:",
+    "_manufacturer": "hologic"
+  },
+  "image_002": {
+    "header": "UPAE ESCADA\nAV. ENG. ALVES DE SOUZA S/N -CENTRO\nESCADA, PE 55500-000",
+    "patient_info": "Informasoes dopasiente:\nNIARILEIDE CAVALCANTE DA\nNoure:\nSILVA\nID dopaciente: 80947204415\nIdentificador 2\n:Codigo postal:\nSexo: Female\nEtnia: White\nAltura: 154.0.cm\nPeso: 74.81kg\nDN: 05/261969\nIdade: 56\nIdade da\n51\nnenopausa:\nVedico\nDOUGLAS ALVES\n:requisitante:\nInformaces da varredura:\nData da varredura: May 13.2026 - A05132609\n'Tipo de varredura: if Right Hip\n Data da analise: 05/13/2026 13:37\nProtocolo tde analise: Hip\nData do :relatorio: 05/13/2026 13:37",
+    "site_title": "Resumodosresultados:\nDATO",
+    "table_header": "Area CMO DMO Escore PR(pico Escore AM (pareadopor\nRegiao\n[[cm2] [(8)] [g/cu2] T padrao) z idade)\n'Colo 4:92 4.47 :0:910 10:6 107 1.7 126\n'Total 33.39 36.81 1.102 1.3 117 2.1 130\n692.9=HL.6001 =D 8701 =DV001AO0A\nRrsco de fratura mao aunentado, Classtficacao da OMS': Normal",
+    "table_data": "'Colo :4:92 :4:47 '0.910 0.6 107 1.7 126\nTotal 33.39 36.81 1.102 1.3 117 2.1 130\nlDIMOtoa1CW i0%6ACF = i1028.BCr = 10091HI=6769\nRisco de fratura mao aumentado. Classificacao da OMS: Normal",
+    "comments": "Versao do software: 13.6.1.3\nComment:",
+    "_manufacturer": "hologic"
+  }
+}

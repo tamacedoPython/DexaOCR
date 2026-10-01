@@ -1,0 +1,20 @@
+{
+  "image_001": {
+    "header": "UPAE ESCADA\nAV. ENG. ALVES DE SOUZA S/N -CENTRO\nESCADA, PE 55500-000",
+    "patient_info": "Informasoes dopasiente:\nNome:\nALAIDE NIARIA IDA SILVA\nID do paciente: 73561746420\nIdentificador 2:\n(Codigo postal:\nSexo: Female\nEtnia: White\nAltura: 146.0.cm\nPeso: 58.9 kg\nDN: 10:241961\nIdade: :64\nIdade da mrenopausa: 47\nMedico:requisitante: HEVER STANY\nInformases da varredura.\nData da varredura: May 13. 2026 - A05132606\n'Tipo de varredura: fLumbar Spine\nData da analise: 05/13/2026 1249\nProtocolo tde analise: Spine\nData do :relatorio: 05/13/2026 12:52\nMnstituigao: UPAE ESCADA",
+    "site_title": "k = 1.137, d0 = 49.0",
+    "table_header": "Resumo dos resultados?\nArea CMO DMO Escore PR.(pico Escore\nAM (pareadopor\nRegiao\n[(3)] [g/cm2] (padrao) idade)\nL1 12.15 9.87 :0.812 -1:6 82 -0.1 66.\nL2 11.88 10.72 :0:903 -1.1 88 :0:6 107\nT.3 12.88 11.23 10.888 -1 8 82 10.0 100",
+    "table_data": "Area CMO DMO Escore PR (pico Escore AM (pareadopor\nRegiao\n[cm?] [()]] [g/cml T padrao) idade)\nL1 12.15 9.87 :0.812 -1.6 82 -0.1 '99\nL2 11.88 10.72 :0:903 -1.1 88 :0:6 107\nL3 12.88 11.43 0.888 -1.8 82 0:0 100\nL4 13.10 11.41 0.871 -1.7 82 0.1 102\nTotal 50:01 43.43 0.869 -1.6 83 0.1 101\nDMOtotalCY 1.0%,ACF = 1.028,BCF = 1.009,HH = 7.275\nRisco de fratura Aumentado: Classificacao da OMS: Osteopenia",
+    "comments": "Risco de fratura Aurentado; Classifcacao da OMSt Osteopenia\nComment?",
+    "_manufacturer": "hologic"
+  },
+  "image_002": {
+    "header": "UPAE ESCADA\nAV. ENG. ALVES DE SOUZA S/N -CENTRO\nESCADA, PE 55500-000",
+    "patient_info": "Informasoes dopasiente:\nNome:\nALAIDE NIARIA IDA SILVA\nID do paciente: 73561746420\nIdentificador 2:\n(Codigo postal:\nSexo: Female\nEtnia: White\nAltura: 146.0.cm\nPeso: 58.9 kg\nDN: 10:241961\nIdade: :64\nIdade da mrenopausa: 47\nMedico:requisitante: HEVER STANY\nInformases da varredura.\nData da varredura: May 13. 2026 - A05132607\n'Tipo de varredura: f Right Hip\nData da analise: 05/13/2026 12:52\nProtocolo de analise: Hip\nData do :relatorio: 05/13/2026 12:52\nMnstituigao: UPAE ESCADA",
+    "site_title": "Resumodosresultados:\nDATO",
+    "table_header": "Area CMO DMO Escore PR(pico Escore AM (pareadopor\nRegiao\n[[cm2] [(8)] [g/cu2] T padrao) z idade)\n'Colo 4:28 3.41 :0.795 -0:5 94 1:0 116\n'Total 38.10 33:99 :0.892 -0:4 '95 :0.8 112\nDMOtotalCV 1.0%ACF = 1.028BCF = 1.009,1H = 5.738\nRrsco de fratura mao aunentado, Classtficacao da OMS': Normal",
+    "table_data": "'Colo 4.28 3.41 10.795 -0.5 '94 1:0 116\nTotal 38.10 33:99 :0.892 -0.4 95 0.8 112\nIDMOto1CV 1 0% ACF = 1028.BCF = 1009.1HH = 5.738\nRisco de fratura mao aumentado. Classificacao da OMS: Normal",
+    "comments": "Comment?",
+    "_manufacturer": "hologic"
+  }
+}

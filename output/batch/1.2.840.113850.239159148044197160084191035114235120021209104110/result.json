@@ -1,0 +1,75 @@
+{
+  "patient_info": {
+    "name": "ALAIDE NIARIA IDA SILVA",
+    "birth_date": null,
+    "age": null,
+    "sex": "Feminino",
+    "ethnicity": "White",
+    "height_cm": 146.0,
+    "weight_kg": 58.9,
+    "physician": "HEVER STANY",
+    "measured_at": null,
+    "analyzed_at": null
+  },
+  "lumbar_spine": {
+    "L1": {
+      "bmd": 0.812,
+      "young_adult_percent": 82,
+      "t_score": -1.6,
+      "age_matched_percent": 99,
+      "z_score": -0.1
+    },
+    "L2": {
+      "bmd": 0.903,
+      "young_adult_percent": 88,
+      "t_score": -1.1,
+      "age_matched_percent": 107,
+      "z_score": 0.6
+    },
+    "L3": {
+      "bmd": 0.888,
+      "young_adult_percent": 82,
+      "t_score": -1.8,
+      "age_matched_percent": 100,
+      "z_score": 0.0
+    },
+    "L4": {
+      "bmd": 0.871,
+      "young_adult_percent": 82,
+      "t_score": -1.7,
+      "age_matched_percent": 102,
+      "z_score": 0.1
+    },
+    "Total": {
+      "bmd": 0.869,
+      "young_adult_percent": 83,
+      "t_score": -1.6,
+      "age_matched_percent": 101,
+      "z_score": 0.1
+    }
+  },
+  "right_femur": {
+    "Colo": {
+      "bmd": 0.795,
+      "young_adult_percent": 94,
+      "t_score": -0.5,
+      "age_matched_percent": 116,
+      "z_score": 1.0
+    },
+    "Total": {
+      "bmd": 0.892,
+      "young_adult_percent": 95,
+      "t_score": -0.4,
+      "age_matched_percent": 112,
+      "z_score": 0.8
+    }
+  },
+  "comments": "Risco de fratura Aurentado; Classifcacao da OMSt Osteopenia\nComment?\n\nComment?",
+  "ocr_metadata": {
+    "engine": "paddleocr",
+    "pages_processed": 2,
+    "pages_skipped": 0,
+    "confidence_notes": [],
+    "warnings": []
+  }
+}

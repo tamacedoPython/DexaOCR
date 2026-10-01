@@ -1,0 +1,124 @@
+=== image_003 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao veras de Sigueira, s/A Bairro Jardim Primavera, BR  Salgueiro-PE
+Fone (87)3871-8900
+Paciente: : ADATIVA DA SILVA ID Estabelecimento:
+Data de Nascimento: 20/09/1969 56.6 anos Médico que ALDO LEITE
+Altura / Peso: 153,0 cm 53,0 kg Medido: 07/05/2026 11:24:05 (13,60)
+
+--- site_title ---
+Zn:ZCitt
+Referencia de Densitometria: Total :BMD
+YA T-score Pontuacao Z AM
+
+--- table_header ---
+Regiao (g/cm2) (%) T-score (%) Z-score
+Colo 0,686 66 -2,5 81 -1,2
+Wards 0,641 70 -2,1 92 -0,4
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+Colo 0,686 66 -2,5 81 -1,2
+Wards 0,641 70 -2,1 92 -0,4
+Troc. 0,551 65 -2,6 76 -1,5
+Diäfise 0,926
+Total 0,745 74 -2,1 85 -1,1
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1Dp ( 0,012 g/cm2 para
+Fémur direito Total
+2 -EUA (Combinacao NHANES (idades 20-30) / Lunar (idades 20-40)) Femur Populacäo de
+Referéncia (v112)
+3 -Correspondéncia em Idade, Peso (mulheres 25-100 kg), Etnia
+
+--- comments ---
+
+
+--- footnotes ---
+Imageminaodestinadaadiagnöstico 1 -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00112 g/cm2ipara
+Impresso: 07/05/2026 12:16:31 ((13:60)76:0 38:76:52:7/8 0:00:-1 00 iFémur(áireito Total)
+0:60x1,20 15/6:%Gordura=247%
+Referéndia((vi12)
+0:00:0/000/0010/00 3 -Gorrespondéndia em Idade, Reso((mulheres:25-i100ikg), Etnia
+Angulo do(aolo (graus)= 52
+Werifique se iexisterespago suficiente de separacaoientreipelve:eidiáfise. (6 : BMD ipadronizada para Total:é 699img/cm2
+Nome deiarquivo: Ihs7oet39b5:ntx 11 rganizagaolMundialde Saude- Definicao de@steoporoseie asteopeniaiparalMulheres
+IModo(de ivarreduralFino '50IGy Brancas: iNormal = T-scoreiigualou superiora-i0sD asteopenia = T scoreentre-t:0e 2 5
+SD asteoporose = T saoreligualou inferior a 2/5 SD i(As definigoes da(oMS:saoaplicäveis
+apenas iguando éusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável
+Ipara(determinarios T scores.)
+
+--- _manufacturer ---
+ge
+
+=== image_004 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao veras de Sigueira, s/A Bairro Jardim Primavera, BR  Salgueiro-pE
+Fone (87)3871-8900
+Paciente: : ADATIVA DA SILVA ID Estabelecimento:
+Data de Nascimento: 20/09/1969 56.6 anos Médico que ALDO LEITE
+Altura / Peso: 153,0 cm 53,0 kg Medido: 07/05/2026 11:27:09 (13,60)
+
+--- site_title ---
+12.17.70
+Referencia de IDensitometria: lL2-L4 (BMD)
+YA T-score Pontuagao Z AM
+
+--- table_header ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiäo (g/cm2) (%) T-score (%) Z-score
+L1 0,904 80 -1,9 93 -0,6
+L2 0,891 74 -2,6 86 -1,3
+L3 0,829 69 -3,1 80 -1,8
+L4 0,822 68 -3,2 79 -1,8
+L1-L2 0,898 77 -2,2 89 6'0-
+L1-L3 0,873 75 -2,5 86 -1,2
+L1-L4 0,858 73 -2,7 84 -1,4
+L2-L3 0,857 71 -2,9 82 -1,5
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+L1 0,904 80 -1,9 93 -0,6
+L2 0,891 74 -2,6 86 -1,3
+L3 0,829 69 -3,1 80 -1,8
+L4 0,822 68 -3,2 79 -1,8
+L1-L2 0,898 77 -2,2 89 6'0-
+L1-L3 0,873 75 -2,5 86 -1,2
+L1-L4 0,858 73 -2,7 84 -1,4
+L2-L3 0,857 71 -2,9 82 -1,5
+L2-L4 0,844 70 -3,0 81 -1,6
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1Dp ( 0,010 g/cm2 para
+Coluna AP L2-L4)
+2 -EUA (Combinacao NHANES (idades 20-30) / Lunar (idades 20-40)) Coluna AP Populacao de
+Referéncia (v112)
+3 -Correspondéncia em Idade, Peso (mulheres 25-100 kg), Etnia
+
+--- comments ---
+
+
+--- footnotes ---
+Imagemináo destinada a diagnöstico  -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00l g/cm2ipara
+(Goluna.APiL2-L4)
+2-EUA((CombinacaolNHANES(idades 20-30)/ILunar i(idades 20-40)) Gdluna/AP Populacao de
+0:60xi1,20 i17.3:%Gordura=24;4% Referéncia(v112)
+:3-Correspondéndiaiem Idade, Resoi(mulheres 25-i100lkg), Etnia
+INome de arauiva: lhs7oet39b5:ntx
+(6 -BMDipadronizadaiparall2-L4é 804mg/cm2.
+IModode warredura: Padrao :20;0Gy
+11 organizagaolMundialde Saude- Definicao de(osteoporoseie asteopeniaiparalMulheres
+Brancas: INormal = T-scoreiigualou :superiora-i0 sD asteopenia = T scoreentre-i:0e 2 5
+SD asteoporose = T saoreiigualou inferiora 2/5 SD i(As definigoes da(oMS:saoiaplicäveis
+apenas iquandoéusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável
+Ipara(determinarios T scores.)
+
+--- _manufacturer ---
+ge

@@ -1,0 +1,75 @@
+{
+  "patient_info": {
+    "name": null,
+    "birth_date": null,
+    "age": "46",
+    "sex": "Feminino",
+    "ethnicity": "White",
+    "height_cm": null,
+    "weight_kg": null,
+    "physician": null,
+    "measured_at": null,
+    "analyzed_at": null
+  },
+  "right_femur": {
+    "Colo": {
+      "bmd": 0.619,
+      "young_adult_percent": 73,
+      "t_score": -2.1,
+      "age_matched_percent": 78,
+      "z_score": -1.6
+    },
+    "Total": {
+      "bmd": 1.168,
+      "young_adult_percent": 124,
+      "t_score": 1.9,
+      "age_matched_percent": 130,
+      "z_score": 2.2
+    }
+  },
+  "lumbar_spine": {
+    "L1": {
+      "bmd": 1.055,
+      "young_adult_percent": 107,
+      "t_score": 0.6,
+      "age_matched_percent": 112,
+      "z_score": 1.0
+    },
+    "L2": {
+      "bmd": 1.167,
+      "young_adult_percent": 114,
+      "t_score": 1.3,
+      "age_matched_percent": 120,
+      "z_score": 1.8
+    },
+    "L3": {
+      "bmd": 1.222,
+      "young_adult_percent": 113,
+      "t_score": 1.3,
+      "age_matched_percent": 119,
+      "z_score": 1.8
+    },
+    "L4": {
+      "bmd": 1.177,
+      "young_adult_percent": 111,
+      "t_score": 1.1,
+      "age_matched_percent": 118,
+      "z_score": 1.6
+    },
+    "Total": {
+      "bmd": 1.16,
+      "young_adult_percent": 111,
+      "t_score": 1.0,
+      "age_matched_percent": 117,
+      "z_score": 1.5
+    }
+  },
+  "comments": "Versao do software: 13.6.1.3\nComment:\n\nVersao do software: 13.6.1.3 Risco de fatura nao aumentado, Classificacaoda OMS: Normal\nComment:",
+  "ocr_metadata": {
+    "engine": "paddleocr",
+    "pages_processed": 2,
+    "pages_skipped": 0,
+    "confidence_notes": [],
+    "warnings": []
+  }
+}

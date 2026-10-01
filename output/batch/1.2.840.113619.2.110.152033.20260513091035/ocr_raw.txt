@@ -1,0 +1,123 @@
+=== image_003 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao Veras de Sigueira,  Jaralm Prlmavera, bR  Salgueiro-PE
+Fone (87)3871-8900
+Paciente: y FRANCISCO AFONSO SIMAO ID Estabelecimento:
+Data de Nascimento: 05/05/1946 80.0 anos Médico que JAILSOBN JOSE
+Altura / Peso: 157,0 cm 74,4 kg Medido: 13/05/2026 09:10:35 (13,60)
+7CUCfSv7 C
+
+--- site_title ---
+Referencia de Densitometria: Total :BMD
+YA T-score Pontuacao Z AM
+
+--- table_header ---
+Regi&o (g/cm2) (%) T-score (%) Z-score
+Colo 1,015 95 -0,4 102 0,2
+Wards 1,118 116 1,2 145 2,7
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+Colo 1,015 95 -0,4 102 0,2
+Wards 1,118 116 1,2 145 2,7
+Troc. 0,976 105 0,4 106 0,5
+Diäfise 1,469
+Total 1,220 111 0,8 115 1,1
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1Dp (t 0,012 g/cm2 para
+Fémur direito Total
+2 -EUA (Combinacao NHANES (idades 20-30) / Lunar (idades 20-40)) Femur Populacäo de
+Referéncia (v112)
+3 -Correspondéncia em Idade, Peso (homens 25-100 kg), Etnia
+
+--- comments ---
+
+
+--- footnotes ---
+Imageminao destinada a diagnöstico  -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00112 g/cm2ipara
+Impresso: 13/05/2026 17:08:41 ((13:60)76:0 38:76:52:7/80:00:-100 iFémur(áireito Total)
+0/60x1,20 19:8:%Gordura=30,3%
+Referéndia((vi12)
+0:000/000/0010/00 3 -Gorrespondéndia em Idade, Reso((homens 25-i00lkg), Etnia
+Angulo do(adlo((graus)= 54
+Nome de arquivo: Ibt4zet39b5.ntx (6 : BMDipadronizadaipara Total:é :1. 164img/cm2.
+lModode yarreduraFino 50iGy 11 rganizagaolMundialde Saude- Definicao de@steoporoseieiasteopeniaiparalMulheres
+Brancas: iNormal = T-scoreiigualou :superiora-i0 sD asteopenia = T scoreentre-t:0e 2 5
+SD asteoporose = T saoreiigualou inferiora 2/5 SD i(As definigoes da(oMS:saoiaplicäveis
+apenas iquandoéusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável
+Ipara(determinarios T scores.)
+
+--- _manufacturer ---
+ge
+
+=== image_004 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao Veras de Sigueira,  Jaralm Prlmavera, bR  Salgueiro-PE
+Fone (87)3871-8900
+Paciente: y FRANCISCO AFONSO SIMAO ID Estabelecimento:
+Data de Nascimento: 05/05/1946 80.0 anos Médico que JAILSOBN JOSE
+Altura / Peso: 157,0 cm 74,4 kg Medido: 13/05/2026 09:15:36 (13,60)
+
+--- site_title ---
+13.007
+Referencia de IDensitometria: l 2-L 4 :dBNlD)
+YA T-score Pontuag&o Z AM
+
+--- table_header ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiäo (g/cm2) (%) T-score (%) Z-score
+L1 1,447 125 2,4 127 2,5
+L2 1,585 128 2,9 129 3,0
+L3 1,505 121 2,2 123 2,3
+L4 1,608 130 3,1 131 3,2
+L1-L2 1,519 127 2,7 128 2,8
+L1-L3 1,514 125 2,5 127 2,6
+L1-L4 1,540 126 2,7 128 2,8
+L2-L3 1,545 125 2,5 126 2,6
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+L1 1,447 125 2,4 127 2,5
+L2 1,585 128 2,9 129 3,0
+L3 1,505 121 2,2 123 2,3
+L4 1,608 130 3,1 131 3,2
+L1-L2 1,519 127 2,7 128 2,8
+L1-L3 1,514 125 2,5 127 2,6
+L1-L4 1,540 126 2,7 128 2,8
+L2-L3 1,545 125 2,5 126 2,6
+L2-L4 1,568 126 2,7 128 2,8
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1Dp ( 0,010 g/cm2 para
+Coluna AP L2-L4)
+2 -EUA (Combinacao NHANES (idades 20-30) / Lunar (idades 20-40)) Coluna AP Populacao de
+Referéncia (v112)
+3 -Correspondéncia em Idade, Peso (homens 25-100 kg), Etnia
+
+--- comments ---
+
+
+--- footnotes ---
+Imageminaodestinadaadiagnöstico  -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00l g/cm2ipara
+(Goluna.APiL2-L4)
+0:60x1,20 24,3:%Gordura=41/4% 2-EUA((CombinacaolNHANES(idades 20-30)/ILunar i(idades 20-40)) Gdluna/AP Populacao de
+Referéncia(v112)
+INome de arauivo: lbt4zet39b5.ntx :3 -Gorrespondéncia em Idade, Reso((homens.25-i00lkg), Etnia
+(6 -BMDpadronizada/parall2-L4é i1:493img/cm2.
+IModode warredura: Padrao :20;0Gy
+11 organizagaolMundialde Saude- Definicao de(@steoporoseie asteopenia paralMulheres
+Brancas: INormal = T-scoreiigualou :superiora-i0 sD asteopenia = T scoreentre-i:0e 2 5
+SD asteoporose = T saoreiigualou inferiora 2/5 SD i(As definigoes da(oMS:saoiaplicäveis
+apenas iquandoéusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável
+Ipara(determinarios T scores.)
+
+--- _manufacturer ---
+ge

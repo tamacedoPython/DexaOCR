@@ -1,0 +1,124 @@
+{
+  "patient_info": {
+    "name": "\", MARIA ELIANE FIGUEIRA QUEZADO",
+    "birth_date": "28/08/1968",
+    "age": "57.7",
+    "sex": null,
+    "ethnicity": null,
+    "height_cm": 162.0,
+    "weight_kg": 65.0,
+    "physician": "WAYDSON",
+    "measured_at": "13/05/2026 10:47:24",
+    "analyzed_at": null
+  },
+  "right_femur": {
+    "Colo": {
+      "bmd": 0.658,
+      "young_adult_percent": 63,
+      "t_score": -2.7,
+      "age_matched_percent": 75,
+      "z_score": -1.6
+    },
+    "Wards": {
+      "bmd": 0.613,
+      "young_adult_percent": 67,
+      "t_score": -2.3,
+      "age_matched_percent": 85,
+      "z_score": -0.8
+    },
+    "Troc.": {
+      "bmd": 0.593,
+      "young_adult_percent": 70,
+      "t_score": -2.2,
+      "age_matched_percent": 79,
+      "z_score": -1.4
+    },
+    "Diáfise": {
+      "bmd": 1.037,
+      "young_adult_percent": null,
+      "t_score": null,
+      "age_matched_percent": null,
+      "z_score": null
+    },
+    "Total": {
+      "bmd": 0.81,
+      "young_adult_percent": 80,
+      "t_score": -1.6,
+      "age_matched_percent": 89,
+      "z_score": -0.8
+    }
+  },
+  "lumbar_spine": {
+    "L1": {
+      "bmd": 0.724,
+      "young_adult_percent": 64,
+      "t_score": -3.4,
+      "age_matched_percent": 72,
+      "z_score": -2.4
+    },
+    "L2": {
+      "bmd": 0.824,
+      "young_adult_percent": 69,
+      "t_score": -3.1,
+      "age_matched_percent": 76,
+      "z_score": -2.1
+    },
+    "L3": {
+      "bmd": 0.892,
+      "young_adult_percent": 74,
+      "t_score": -2.6,
+      "age_matched_percent": 83,
+      "z_score": -1.6
+    },
+    "L4": {
+      "bmd": 0.706,
+      "young_adult_percent": 59,
+      "t_score": -4.1,
+      "age_matched_percent": 65,
+      "z_score": -3.1
+    },
+    "L1-L2": {
+      "bmd": 0.774,
+      "young_adult_percent": 66,
+      "t_score": -3.3,
+      "age_matched_percent": 74,
+      "z_score": -2.2
+    },
+    "L1-L3": {
+      "bmd": 0.817,
+      "young_adult_percent": 70,
+      "t_score": -2.9,
+      "age_matched_percent": 78,
+      "z_score": -1.9
+    },
+    "L1-L4": {
+      "bmd": 0.789,
+      "young_adult_percent": 67,
+      "t_score": -3.3,
+      "age_matched_percent": 75,
+      "z_score": -2.2
+    },
+    "L2-L3": {
+      "bmd": 0.86,
+      "young_adult_percent": 72,
+      "t_score": -2.8,
+      "age_matched_percent": 80,
+      "z_score": -1.8
+    },
+    "L2-L4": {
+      "bmd": 0.81,
+      "young_adult_percent": 68,
+      "t_score": -3.2,
+      "age_matched_percent": 75,
+      "z_score": -2.2
+    }
+  },
+  "comments": null,
+  "ocr_metadata": {
+    "engine": "paddleocr",
+    "pages_processed": 2,
+    "pages_skipped": 2,
+    "confidence_notes": [],
+    "warnings": []
+  }
+}

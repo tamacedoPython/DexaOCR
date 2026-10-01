@@ -1,0 +1,11 @@
+# Execucao padrao:
+py main.py --study-uid 1.2.840.113619.2.110.152033.20260416081420 --output-dir output
+
+# Com imagens de debug (ROIs desenhadas, imagens intermediarias):
+py main.py --study-uid 1.2.840.113619.2.110.152033.20260416081420 --output-dir output --debug
+
+# Forcar engine PaddleOCR (se instalado):
+py main.py --study-uid 1.2.840.113619.2.110.152033.20260416095145 --output-dir output --engine paddleocr
+
+# Rodar testes:
+py -m pytest tests/ -v

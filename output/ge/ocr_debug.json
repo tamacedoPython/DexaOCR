@@ -1,0 +1,22 @@
+{
+  "image_003": {
+    "header": "UPAE-DENSITOMETRIA",
+    "patient_info": "Rua Joao Veras de Sigueira,  aln Prnmavera, bK  Salgueiro-PE\nFone (87)3871-8900\nPaciente: \" MARIA DO SOCORRO SANTOS DE ID Estabelecimento:\nData de Nascimento: 01/10/1965 60.5 anos Médico que JAILSOBN JOSE\nAltura / Peso: 158,0 cm 73,5 kg Medido: 07/05/2026 09:00:32 (13,60)\n710F12022",
+    "site_title": "nCiTTIZT\nReferencia de Densitometria: Total :BMD\nYA T-score Pontuacao Z AM",
+    "table_header": "Regiao (g/cm2) (%) T-score (%) Z-score\nColo 0,972 94 -0,5 96 -0,3",
+    "table_data": "Colo 0,972 94 -0,5 96 -0,3\nWards 0,830 91 -0,6 100 0,0\nTroc. 0,731 86 -1,0 88 6'0-\nDiäfise 1,278\nTotal 1,002 99 0,0 97 -0,3",
+    "comments": "",
+    "footnotes": "Imageminao destinada adiagnöstico  -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00112 g/cm2ipara\niFémur(áireito Total)\n00/ T-100fQ68t0cs0s/192(09/cT)41 82:2T 92Q2/s0/20:ossdu\n0/60x1,20 18:0:%Gordura=39:0%\nReferéncia(v112)\n001010010001Q001o\n3 -Gorrespondéndia em Idade, Reso((mulheres:25-i100ikg), Etnia\nAngulo do(adlo (graus)= 67\n(6 BMD ipadronizadaipara Total é 950img/cm2.\nNome de arquivo: lh7i1oet39b5.ntx\n11 rganizacaolMundialde Saude- Definicao de@steoporoseieiasteopeniaiparalMulheres\nIModode yarredura: Padrao 200IGy\nBrancas: iNormal = T-scoreiigualou :superiora-i0sD asteopenia = T scoreentre-t:0e 2 5\nSD asteoporose = T saoreiigualou inferiora 2/5 SD i(As definigoes da(oMS:saoiaplicäveis\napenas iquandoéusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável\nIpara(determinarios T scores.)",
+    "_manufacturer": "ge"
+  },
+  "image_004": {
+    "header": "UPAE-DENSITOMETRIA",
+    "patient_info": "Rua Joao Veras de Sigueira,  alm Prmmaverar pK  Salgueiro-PE\nFone (87)3871-8900\nPaciente: \" MARIA DO SOCORRO SANTOS DE ID Estabelecimento:\nData de Nascimento: 01/10/1965 60.5 anos Médico que JAILSOBN JOSE\nAltura / Peso: 158,0 cm 73,5 kg Medido: 07/05/2026 09:06:03 (13,60)\n710F12022",
+    "site_title": "HNSGIIDIIX D/ 2v20 OA:TTIZT\nReferencia de IDensitometria: lL2-L4 (BMD)\nYA T-score Pontuag&o Z AM",
+    "table_header": "(g/cm2) (%) T-score (%) z-score\nRegiao\nL1 1,048 93 -0,7 96 -0,4",
+    "table_data": "L1 1,048 93 -0,7 96 -0,4\nL2 0,974 81 -1,9 83 -1,6\nL3 1,030 86 -1,4 88 -1,2\nL4 1,022 85 -1,5 87 -1,2\nL1-L2 1,011 87 -1,3 89 -1,0\nL1-L3 1,018 87 -1,3 89 -1,0\nL1-L4 1,019 86 -1,3 89 -1,1\nL2-L3 1,003 84 -1,6 86 -1,4\nL2-L4 1,009 84 -1,6 86 -1,3",
+    "comments": "",
+    "footnotes": "Imagemináo destinada a diagnöstico  -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00l g/cm2ipara\n(Goluna.APiL2-L4)\n00 T1Q0fQ6stQ'csTOs9Z(Q9fcT) Tc2:ZT 9202/S0Z0:0ssauduI\n2-EUA((CombinacaolNHANES(idades 20-30)/ILunar i(idades 20-40)) Gdluna/AP Populacao de\n0:60xi1,20:20;7:%Gordura=34,7% Referéncia(v112)\n0:00:0/000/0010/00\n:3 -Gorrespondéncia em Idade, Reso(mulheres.25-i100lkg), Etnia\nINome de arauiva: lh71oet39b5.ntx\n(6 -BMD ipadronizadaiparall2-L4é 960img/cm2.\nIModode warredura: Padrao :20;0Gy\n11 organizagaolMundialde Saude- Definicao de(osteoporoseie asteopeniaiparalMulheres\nBrancas: INormal = T-scoreiigualou :superiora-i0 sD asteopenia = T scoreentre-i:0e 2 5\nSD asteoporose = T saoreiigualou inferiora 2/5 SD i(As definigoes da(oMS:saoiaplicäveis\napenas iquandoéusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável\nIpara(determinarios T scores.)",
+    "_manufacturer": "ge"
+  }
+}

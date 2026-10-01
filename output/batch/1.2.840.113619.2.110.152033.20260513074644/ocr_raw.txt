@@ -1,0 +1,136 @@
+=== image_003 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao Veras de Sigueira,  bairro Jardim Primavera, BR  Salgueiro-PE
+Fone (87)3871-8900
+Paciente: " MARIA PENHA DE JESUS ID Estabelecimento:
+Data de Nascimento: 22/08/1955 70,7 anos Médico que JAILSOBN JOSE
+Altura / Peso: 148,0 cm 67,0 kg Medido: 13/05/2026 07:46:44 (13,60)
+
+--- site_title ---
+7.72.00
+Referencia de Densitometria: Total Tendencia: Total  iBMD)
+(BMD) %Mudanca em relagao a anterior
+YA T-score iPontuacäo Z AM
+
+--- table_header ---
+Regiao (g/cm2) (%) T-score (%) Z-score
+Colo 0,699 67 -2,4 75 -1,7
+Wards 0,714 78 -1,5 96 -0,3
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) z-score
+Colo 0,699 67 -2,4 75 -1,7
+Wards 0,714 78 -1,5 96 -0,3
+Troc. 0,571 67 -2,4 75 -1,7
+Diäfise 0,931
+Total 0,755 75 -2,0 80 -1,5
+Tendéncia: Total
+Mudar vs
+1,6
+Medido Idade BMD Anterior Anterior
+Data (anos) (g/cm2) (g/cm2) (%)
+13/05/2026 70,7 0,755 * 660'0- -11,6 *
+10/01/2022 66,3 0,854
+* -Indica mudancas significativas com base no intervalo de confianca 95%.
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1DP ( 0,012 g/cm2 para
+Fémur direito Total)
+2 -EUA (Combinacäo NHANES (idades 20-30) / Lunar (idades 20-40)) Fémur Populacäo de
+Referéncia (v112)
+
+--- comments ---
+
+
+--- footnotes ---
+Imageminaodestinadaadiagnöstico * -Indicaimudancas sigrificativas comibaseinolintervalo de confianga 95%.
+ -Estatisticamente 68% de exames irepetidos situam-se dentro de 1Dp ( 0:012 g/cm2ipara
+0:60x1,20 19,2:%Gordura=42/9% IFémur (áireito Total)
+0:00:0/000/0010/00
+Angulo do(aolo (graus)= 54 Referendia(v112)
+Werifique se iexisterespago suficiente de separagaoientreipelve:e diáfise. :3 -Gorrespondénala em Idade, Peso((mulheres 25-i00ikg), Etnia
+Nome deiarquivo: 0pilzet39b5:ntx (6 --BMD /padronizadaipara Total é 709img/cm2.
+Modode ivarredura: Padrao :200Gy 11 organizagaolMundialde Saude- Definicao de Qsteoporosee asteopeniaiparalMulheres
+Brancas: INormal = T saoreigualiou superiora -10 sD; Qsteopenia = T scorerentre 1  e -2,5
+apenas :guando éusadoumlbancode dados deireferencia deimulheribranca jovem e saudável
+Ipara determinar os T scores.)
+
+--- _manufacturer ---
+ge
+
+=== image_004 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao Veras de Sigueira,  bairro Jardim Primavera, BR  Salgueiro-PE
+Fone (87)3871-8900
+Paciente: " MARIA PENHA DE JESUS ID Estabelecimento:
+Data de Nascimento: 22/08/1955 70,7 anos Médico que JAILSOBN JOSE
+Altura / Peso: 148,0 cm 67,0 kg Medido: 13/05/2026 07:52:05 (13,60)
+
+--- site_title ---
+Referéncia de IDensitometria: IL2-L4 Tendéncia: lL2-L4 :(BMD)
+(BMD) %Mudanca em relagao a anterior
+YA T-score :Pontuacäo Z AM
+
+--- table_header ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiäo (g/cm2) (%) T-score (%) Z-score
+L1 0,685 61 -3,7 67 -2,8
+L2 0,842 70 -3,0 77 -2,1
+L3 0,850 71 -2,9 78 -2,0
+L4 0,989 82 -1,8 91 -0,8
+L1-L2 0,771 66 -3,3 73 -2,3
+L1-L3 0,802 69 -3,1 76 -2,1
+L1-L4 0,851 72 -2,7 80 -1,8
+L2-L3 0,846 71 -2,9 78 -2,0
+
+--- table_data ---
+1,6 2 3
+BMD Jovem AduIto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+L1 0,685 61 -3,7 67 -2,8
+L2 0,842 70 -3,0 77 -2,1
+L3 0,850 71 -2,9 78 -2,0
+L4 0,989 82 -1,8 91 -0,8
+L1-L2 0,771 66 -3,3 73 -2,3
+L1-L3 0,802 69 -3,1 76 -2,1
+L1-L4 0,851 72 -2,7 80 -1,8
+L2-L3 0,846 71 -2,9 78 -2,0
+L2-L4 0,893 74 -2,6 82 -1,6
+Tendéncia: L2-L4
+Mudar vs
+1,6
+Medido Idade BMD Anterior Anterior
+Data (anos) (g/cm2) (g/cm2) (%)
+13/05/2026 70,7 0,893 0,188 * 26,7 *
+10/01/2022 66,3 0,705
+* -Indica mudancas significativas com base no intervalo de confianca 95%.
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1DP ( 0,010 g/cm2 para
+Coluna AP L2-L4)
+2 -EUA (Combinacäo NHANES (idades 20-30) 7 Lunar (idades 20-40)) Coluna AP Populacäo de
+Referéncia (v112)
+
+--- comments ---
+
+
+--- footnotes ---
+Imagemináo destinada a diagnöstico * -Indicaimudancas significativasccomibaseinointervalo rde confianga 95%.
+1 -Estatisticamente 68% de examesirepetidos situam se dentro de 1Dp ( :01 g/cm2ipara
+(Cdluna.APiL2-L4)
+0:60x1,20:22;8:%Gordura=40,2%
+2:EUA((GombinacaolNHANES (idades 20-30)7 Iuunar i(idades.20-40)) Golüna/AP Populacaode
+Nome de arauiva: 0pizet39bs.ntx Referendia(v112)
+IModode warredura: Padrao :20;0Gy :3 :-Gorrespondénaia em Idade, Pesot(mulheres 25-il00ikg), Etnia
+(6 BMDipadronizadaparall2-L4 é 85iimg/cm2.
+11 organizacaolMundialde Saude- Definicao de Qsteoporosee asteopeniaiparalMulheres
+apenas :guando éusadoumlbancode dados deireferencia deimulheribranca jovem e saudável
+Iparadeterminar ios T scores.)
+
+--- _manufacturer ---
+ge

@@ -1,0 +1,124 @@
+{
+  "patient_info": {
+    "name": "\" MARIA DE FATIMA PIRES DE SA",
+    "birth_date": "14/04/1959",
+    "age": "67.0",
+    "sex": null,
+    "ethnicity": null,
+    "height_cm": 153.0,
+    "weight_kg": 79.2,
+    "physician": "ALDO LEITE",
+    "measured_at": "13/05/2026 09:41:10",
+    "analyzed_at": null
+  },
+  "right_femur": {
+    "Colo": {
+      "bmd": 0.657,
+      "young_adult_percent": 63,
+      "t_score": -2.7,
+      "age_matched_percent": 76,
+      "z_score": -1.5
+    },
+    "Wards": {
+      "bmd": 0.541,
+      "young_adult_percent": 59,
+      "t_score": -2.8,
+      "age_matched_percent": 79,
+      "z_score": -1.1
+    },
+    "Troc.": {
+      "bmd": 0.652,
+      "young_adult_percent": 77,
+      "t_score": -1.7,
+      "age_matched_percent": 87,
+      "z_score": -0.6
+    },
+    "Diáfise": {
+      "bmd": 0.954,
+      "young_adult_percent": null,
+      "t_score": null,
+      "age_matched_percent": null,
+      "z_score": null
+    },
+    "Total": {
+      "bmd": 0.796,
+      "young_adult_percent": 79,
+      "t_score": -1.7,
+      "age_matched_percent": 90,
+      "z_score": -0.7
+    }
+  },
+  "lumbar_spine": {
+    "L1": {
+      "bmd": 0.839,
+      "young_adult_percent": 74,
+      "t_score": -2.4,
+      "age_matched_percent": 85,
+      "z_score": -1.3
+    },
+    "L2": {
+      "bmd": 0.904,
+      "young_adult_percent": 75,
+      "t_score": -2.5,
+      "age_matched_percent": 85,
+      "z_score": -1.3
+    },
+    "L3": {
+      "bmd": 0.969,
+      "young_adult_percent": 81,
+      "t_score": -1.9,
+      "age_matched_percent": 91,
+      "z_score": -0.8
+    },
+    "L4": {
+      "bmd": 0.828,
+      "young_adult_percent": 69,
+      "t_score": -3.1,
+      "age_matched_percent": 78,
+      "z_score": -2.0
+    },
+    "L1-L2": {
+      "bmd": 0.87,
+      "young_adult_percent": 75,
+      "t_score": -2.5,
+      "age_matched_percent": 85,
+      "z_score": -1.3
+    },
+    "L1-L3": {
+      "bmd": 0.899,
+      "young_adult_percent": 77,
+      "t_score": -2.3,
+      "age_matched_percent": 87,
+      "z_score": -1.1
+    },
+    "L1-L4": {
+      "bmd": 0.879,
+      "young_adult_percent": 75,
+      "t_score": -2.5,
+      "age_matched_percent": 84,
+      "z_score": -1.4
+    },
+    "L2-L3": {
+      "bmd": 0.934,
+      "young_adult_percent": 78,
+      "t_score": -2.2,
+      "age_matched_percent": 88,
+      "z_score": -1.1
+    },
+    "L2-L4": {
+      "bmd": 0.894,
+      "young_adult_percent": 75,
+      "t_score": -2.5,
+      "age_matched_percent": 84,
+      "z_score": -1.4
+    }
+  },
+  "comments": null,
+  "ocr_metadata": {
+    "engine": "paddleocr",
+    "pages_processed": 2,
+    "pages_skipped": 2,
+    "confidence_notes": [],
+    "warnings": []
+  }
+}

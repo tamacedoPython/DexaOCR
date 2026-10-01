@@ -1,0 +1,114 @@
+=== image_001 ===
+--- header ---
+UPAE ESCADA
+AV. ENG. ALVES DE SOUZA S/N -CENTRO
+ESCADA, PE 55500-000
+
+--- patient_info ---
+Informasoes dopasiente:
+Nome:
+ALAIDE NIARIA IDA SILVA
+ID do paciente: 73561746420
+Identificador 2:
+(Codigo postal:
+Sexo: Female
+Etnia: White
+Altura: 146.0.cm
+Peso: 58.9 kg
+DN: 10:241961
+Idade: :64
+Idade da mrenopausa: 47
+Medico:requisitante: HEVER STANY
+Informases da varredura.
+Data da varredura: May 13. 2026 - A05132606
+'Tipo de varredura: fLumbar Spine
+Data da analise: 05/13/2026 1249
+Protocolo tde analise: Spine
+Data do :relatorio: 05/13/2026 12:52
+Mnstituigao: UPAE ESCADA
+
+--- site_title ---
+k = 1.137, d0 = 49.0
+
+--- table_header ---
+Resumo dos resultados?
+Area CMO DMO Escore PR.(pico Escore
+AM (pareadopor
+Regiao
+[(3)] [g/cm2] (padrao) idade)
+L1 12.15 9.87 :0.812 -1:6 82 -0.1 66.
+L2 11.88 10.72 :0:903 -1.1 88 :0:6 107
+T.3 12.88 11.23 10.888 -1 8 82 10.0 100
+
+--- table_data ---
+Area CMO DMO Escore PR (pico Escore AM (pareadopor
+Regiao
+[cm?] [()]] [g/cml T padrao) idade)
+L1 12.15 9.87 :0.812 -1.6 82 -0.1 '99
+L2 11.88 10.72 :0:903 -1.1 88 :0:6 107
+L3 12.88 11.43 0.888 -1.8 82 0:0 100
+L4 13.10 11.41 0.871 -1.7 82 0.1 102
+Total 50:01 43.43 0.869 -1.6 83 0.1 101
+DMOtotalCY 1.0%,ACF = 1.028,BCF = 1.009,HH = 7.275
+Risco de fratura Aumentado: Classificacao da OMS: Osteopenia
+
+--- comments ---
+Risco de fratura Aurentado; Classifcacao da OMSt Osteopenia
+Comment?
+
+--- _manufacturer ---
+hologic
+
+=== image_002 ===
+--- header ---
+UPAE ESCADA
+AV. ENG. ALVES DE SOUZA S/N -CENTRO
+ESCADA, PE 55500-000
+
+--- patient_info ---
+Informasoes dopasiente:
+Nome:
+ALAIDE NIARIA IDA SILVA
+ID do paciente: 73561746420
+Identificador 2:
+(Codigo postal:
+Sexo: Female
+Etnia: White
+Altura: 146.0.cm
+Peso: 58.9 kg
+DN: 10:241961
+Idade: :64
+Idade da mrenopausa: 47
+Medico:requisitante: HEVER STANY
+Informases da varredura.
+Data da varredura: May 13. 2026 - A05132607
+'Tipo de varredura: f Right Hip
+Data da analise: 05/13/2026 12:52
+Protocolo de analise: Hip
+Data do :relatorio: 05/13/2026 12:52
+Mnstituigao: UPAE ESCADA
+
+--- site_title ---
+Resumodosresultados:
+DATO
+
+--- table_header ---
+Area CMO DMO Escore PR(pico Escore AM (pareadopor
+Regiao
+[[cm2] [(8)] [g/cu2] T padrao) z idade)
+'Colo 4:28 3.41 :0.795 -0:5 94 1:0 116
+'Total 38.10 33:99 :0.892 -0:4 '95 :0.8 112
+DMOtotalCV 1.0%ACF = 1.028BCF = 1.009,1H = 5.738
+Rrsco de fratura mao aunentado, Classtficacao da OMS': Normal
+
+--- table_data ---
+'Colo 4.28 3.41 10.795 -0.5 '94 1:0 116
+Total 38.10 33:99 :0.892 -0.4 95 0.8 112
+IDMOto1CV 1 0% ACF = 1028.BCF = 1009.1HH = 5.738
+Risco de fratura mao aumentado. Classificacao da OMS: Normal
+
+--- comments ---
+Comment?
+
+--- _manufacturer ---
+hologic

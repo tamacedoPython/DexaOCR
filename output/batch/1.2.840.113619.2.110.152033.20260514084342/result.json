@@ -1,0 +1,130 @@
+{
+  "patient_info": {
+    "name": "\", MARIA ROSA DOS SANTOS BARROS",
+    "birth_date": "13/05/1950",
+    "age": "76.0",
+    "sex": null,
+    "ethnicity": null,
+    "height_cm": 143.0,
+    "weight_kg": 58.4,
+    "physician": "ALDO LEITE",
+    "measured_at": "14/05/2026 08:43:42",
+    "analyzed_at": null
+  },
+  "right_femur": {
+    "Colo": {
+      "bmd": 0.665,
+      "young_adult_percent": 64,
+      "t_score": -2.7,
+      "age_matched_percent": 89,
+      "z_score": -0.6
+    },
+    "Wards": {
+      "bmd": 0.604,
+      "young_adult_percent": 66,
+      "t_score": -2.4,
+      "age_matched_percent": 103,
+      "z_score": 0.1
+    },
+    "Troc.": {
+      "bmd": 0.619,
+      "young_adult_percent": 73,
+      "t_score": -2.0,
+      "age_matched_percent": 96,
+      "z_score": -0.2
+    },
+    "Diáfise": {
+      "bmd": 0.882,
+      "young_adult_percent": null,
+      "t_score": null,
+      "age_matched_percent": null,
+      "z_score": null
+    },
+    "Total": {
+      "bmd": 0.758,
+      "young_adult_percent": 75,
+      "t_score": -2.0,
+      "age_matched_percent": 99,
+      "z_score": 0.0
+    }
+  },
+  "lumbar_spine": {
+    "L1": {
+      "bmd": 1.02,
+      "young_adult_percent": 90,
+      "t_score": -0.6,
+      "age_matched_percent": 114,
+      "z_score": 1.1
+    },
+    "L2": {
+      "bmd": 1.128,
+      "young_adult_percent": 94,
+      "t_score": -0.6,
+      "age_matched_percent": 117,
+      "z_score": 1.4
+    },
+    "L3": {
+      "bmd": 0.994,
+      "young_adult_percent": 83,
+      "t_score": -1.7,
+      "age_matched_percent": 103,
+      "z_score": 0.3
+    },
+    "L4": {
+      "bmd": 0.969,
+      "young_adult_percent": 81,
+      "t_score": -1.9,
+      "age_matched_percent": 101,
+      "z_score": 0.1
+    },
+    "L1-L2": {
+      "bmd": 1.072,
+      "young_adult_percent": 92,
+      "t_score": -0.8,
+      "age_matched_percent": 116,
+      "z_score": 1.2
+    },
+    "L1-L3": {
+      "bmd": 1.045,
+      "young_adult_percent": 89,
+      "t_score": -1.0,
+      "age_matched_percent": 112,
+      "z_score": 0.9
+    },
+    "L1-L4": {
+      "bmd": 1.022,
+      "young_adult_percent": 87,
+      "t_score": -1.3,
+      "age_matched_percent": 109,
+      "z_score": 0.7
+    },
+    "L2-L3": {
+      "bmd": 1.058,
+      "young_adult_percent": 88,
+      "t_score": -1.2,
+      "age_matched_percent": 110,
+      "z_score": 0.8
+    },
+    "L2-L4": {
+      "bmd": 1.023,
+      "young_adult_percent": 85,
+      "t_score": -1.5,
+      "age_matched_percent": 106,
+      "z_score": 0.5
+    }
+  },
+  "comments": "Tendencia: Cübito 33% (BMD) Tendéncia: Antebrago Direito Cübito 33%\n%Mudanca em relac&o a anterior Mudar vs\n27 Medido Idade Anterior Anterior\n\nTendéncia: Antebrago Direito Cübito Total\nTendéncia: Cübito Total (BMD)\n%Mudanca em relac&o a anterior Mudar vs\n27 Medido Idade Anterior Anterior",
+  "ocr_metadata": {
+    "engine": "paddleocr",
+    "pages_processed": 7,
+    "pages_skipped": 3,
+    "confidence_notes": [],
+    "warnings": [
+      "Não foi possível extrair dados de uma página",
+      "Não foi possível extrair dados de uma página",
+      "Não foi possível extrair dados de uma página",
+      "Não foi possível extrair dados de uma página",
+      "Não foi possível extrair dados de uma página"
+    ]
+  }
+}

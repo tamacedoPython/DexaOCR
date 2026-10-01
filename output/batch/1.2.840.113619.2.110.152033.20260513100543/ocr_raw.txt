@@ -1,0 +1,123 @@
+=== image_003 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao veras de Sigueira, s/A Bairro Jardim Primavera, BR  Salgueiro-PE
+Fone (87)3871-8900
+Paciente:  MARIA NEUMA SILVA ID Estabelecimento:
+Data de Nascimento: 25/01/1966 60,2 anos Médico que JAILSOBN JOSE
+Altura / Peso: 155,0 cm 66,2 kg Medido: 13/05/2026 10:05:43 (13,60)
+
+--- site_title ---
+13007
+Referencia de lDensitometria: Iotal :dBNlD)
+YA T-score Pontuacao Z AM
+
+--- table_header ---
+Regiao (g/cm2) (%) T-score (%) Z-score
+Colo 1,131 109 0,7 130 1,9
+Wards 0,933 103 0,2 133 1,8
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+Colo 1,131 109 0,7 130 1,9
+Wards 0,933 103 0,2 133 1,8
+Troc. 0,789 93 -0,5 106 0,4
+Diäfise 1,300
+Total 1,073 106 0,5 120 1,4
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1Dp (t 0,012 g/cm2 para
+Fémur direito Total
+2 -EUA (Combinacao NHANES (idades 20-30) / Lunar (idades 20-40)) Femur Populacäo de
+Referéncia (v112)
+3 -Correspondéncia em Idade, Peso (mulheres 25-100 kg), Etnia
+
+--- comments ---
+
+
+--- footnotes ---
+ Imageminao destinada a diagnöstico  -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00112 g/cm2ipara
+iFémur(áireito Total)
+0:60x1,20 17/4:%Gordura=30:9%
+Referéncia(v112)
+0:00:0/000/0010/00 :3-Correspondéndlaiem Idade, Resoi(mtilheres 25-i100ikg), Etnia
+Angulo do(aolo (graus)= 54
+Nome de arquivo: 098zet39b5:ntx 6 : BMDipadronizadaipara Total:é :1:0119img/cm2.
+IModode yarredura: Padrao 200IGy 11 rganizacaolMundialde Saude- Definicao de@steoporoseieiasteopeniaiparalMulheres
+Brancas: iNormal = T-scoreiigualou :superiora-i0 sD asteopenia = T scoreentre-t:0e 2 5
+SD asteoporose = T saoreiigualou inferiora 2/5 SD i(As definigoes da(oMS:saoiaplicäveis
+apenas iquandoéusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável
+Ipara(determinarios T scores.)
+
+--- _manufacturer ---
+ge
+
+=== image_004 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao veras de Sigueira, s/A Bairro Jardim Primavera, BR  Salgueiro-PE
+Fone (87)3871-8900
+Paciente:  MARIA NEUMA SILVA ID Estabelecimento:
+Data de Nascimento: 25/01/1966 60,2 anos Médico que JAILSOBN JOSE
+Altura / Peso: 155,0 cm 66,2 kg Medido: 13/05/2026 10:10:10 (13,60)
+7CUCfSv7 C
+
+--- site_title ---
+2020
+Referencia de IDensitometria: lL2-L4 (BMD)
+YA T-score Pontuag&o Z AM
+
+--- table_header ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+L1 1,077 95 -0,4 109 0,7
+L2 1,168 97 -0,3 110 0,9
+L3 1,131 94 -0,6 107 0,6
+L4 1,156 96 -0,4 109 0,8
+L1-L2 1,127 97 -0,3 110 0,9
+L1-L3 1,128 96 -0,3 110 0,8
+L1-L4 1,137 96 -0,4 109 0,8
+L2-L3 1,149 96 -0,4 108 0,7
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+L1 1,077 95 -0,4 109 0,7
+L2 1,168 97 -0,3 110 0,9
+L3 1,131 94 -0,6 107 0,6
+L4 1,156 96 -0,4 109 0,8
+L1-L2 1,127 97 -0,3 110 0,9
+L1-L3 1,128 96 -0,3 110 0,8
+L1-L4 1,137 96 -0,4 109 0,8
+L2-L3 1,149 96 -0,4 108 0,7
+L2-L4 1,152 96 -0,4 109 0,8
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1Dp ( 0,010 g/cm2 para
+Coluna AP L2-L4)
+2 -EUA (Combinacao NHANES (idades 20-30) / Lunar (idades 20-40)) Coluna AP Populacao de
+Referéncia (v112)
+3 -Correspondéncia em Idade, Peso (mulheres 25-100 kg), Etnia
+
+--- comments ---
+
+
+--- footnotes ---
+Imageminao destinada a diagnöstico  -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00l g/cm2ipara
+(Goluna.APiL2-L4)
+0:60x1,20 217:%Gordura=27/5% 2-EUA((CombinacaolNHANES(idades 20-30)/ILunar i(idades 20-40)) Gdluna/AP Populacao de
+Referéncia(v112)
+INome de arauivo: 098zet39bs:ntx :3 -Gorrespondéncia em Idade, Reso((mtilheres:25-i100ikg), Etnia
+IModode warredura: Padrao :20;0Gy (6:BMDpadronizadaparall2-L4ê i1.097img/cm2.
+11 organizagaolMundialde Saude- Definicao de (@steoporoseie asteopeniaiparalMulheres
+Brancas: INormal = T-scoreiigualou :superiora-i0 sD asteopenia = T scoreentre-i:0e 2 5
+SD asteoporose = T saoreiigualou inferiora 2/5 SD i(As definigoes da(oMS:saoiaplicäveis
+apenas iquandoéusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável
+Ipara(determinarios T scores.)
+
+--- _manufacturer ---
+ge

@@ -1,0 +1,114 @@
+=== image_001 ===
+--- header ---
+UPAE ESCADA
+AV. ENG. ALVES DE SOUZA S/N -CENTRO
+ESCADA, PE 55500-000
+
+--- patient_info ---
+Informasoes dopasiente:
+Nome:
+NIARIA ANIONIETA SERPA
+ID do paciente: 49390325404
+Identificador 2:
+(Codigo postal:
+Sexo: Female
+Etnia: White
+Altura: 150.0.cm
+Peso: 784kg
+DN: 072971958
+idade: .67
+Idade da mrenopausa: 45
+Medico:requisitante: DANIEL INATOS BUFFONE
+Informases da yarredura:
+Data da varredura:
+May 11.2026 - A05112609
+fLumbar Spine
+'Tipo de varredura:
+ Data da analise: 05411/2026 14:26
+Protocolo tde analise: Spine
+Data do :relatorio: 05/11/2026 14:27
+Mnstituigao: UPAE ESCADA
+
+--- site_title ---
+k = 1.141, d0 = 45.6
+
+--- table_header ---
+Kesummo dos resultados.
+Area DMO AM (pareado por
+CMO Escore PR (pico Escore
+Regiao
+3.
+
+--- table_data ---
+Kesumo dos resultados:
+Area
+CMO DMO Escore PR (pico Escore AM (pareado por
+Regiao
+[cm2] [(2)] [g/cm2] T padrao) z idade)
+L1 11.74 9.94 0.847 -1.3 86 0.4 106
+L2 11.57 11.13 0.961 -0.6 94 1.3 118
+L3 13.61 13.47 0.990 -0.9 91 1.2 115
+L4 17.35 17.73 1.022 -0.4 96 1.7 123
+Total 54.27 52.26 0.963 -0.8 92 1.2 116
+DMO total CV 1.0%,ACF = 1.028,BCF = 1.009,TH = 8.844
+
+--- comments ---
+Risco defratura nao aumentado; Classificacao da OMS: Normal
+Comment?
+
+--- _manufacturer ---
+hologic
+
+=== image_002 ===
+--- header ---
+UPAE ESCADA
+AV. ENG. ALVES DE SOUZA S/N -CENTRO
+ESCADA, PE 55500-000
+
+--- patient_info ---
+Informasoes dopasiente:
+Nome:
+NIARIA ANIONIETA SERPA
+ID do paciente: 49390325404
+Identificador 2:
+(Codigo postal:
+Sexo: Female
+Etnia: White
+Altura: 150.0.cm
+Peso: 784kg
+DN: 072971958
+idade: .67
+Idade da mrenopausa: 45
+Medico:requisitante: DANIEL INATOS BUFFONE
+Informases da varredura.
+Data da varredura:
+May 11.2026 - A0511260A
+f Right Hip
+'Tipo de varredura:
+Data da analise: 05411/2026 14:26
+Protocolo de analise: Hip
+Data do :relatorio: 05/11/2026 14:26
+Mnstituigao: UPAE ESCADA
+
+--- site_title ---
+Resumodosresultados:
+DATO
+
+--- table_header ---
+Regiao Escore r A prco escvie Fiv tpateauo por
+[cm2] [()] [g/cm?] T padrao) z idade)
+Colo 4.80 3.70 0.770 -0.7 91 1.0 116
+
+--- table_data ---
+Regiao esxuie x  p1c0 Escore Alv1 pateado por
+[cm2] [(2)] [g/cm2] T padr&o) z idade)
+Colo 4.80 3.70 0.770 -0.7 91 1.0 116
+Total 35.91 36.06 1.004 0.5 107 1.9 130
+DMO total CV 1.0%,ACF = 1.028,BCF = 1.009,TH = 6.729
+Risco de fratura: nao aumentado; Classificac&o da OMS: Normal
+
+--- comments ---
+Comment?
+
+--- _manufacturer ---
+hologic

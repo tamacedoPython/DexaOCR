@@ -1,0 +1,124 @@
+{
+  "patient_info": {
+    "name": "\" MARIA PENHA DE JESUS",
+    "birth_date": "22/08/1955",
+    "age": "70.7",
+    "sex": null,
+    "ethnicity": null,
+    "height_cm": 148.0,
+    "weight_kg": 67.0,
+    "physician": "JAILSOBN JOSE",
+    "measured_at": "13/05/2026 07:46:44",
+    "analyzed_at": null
+  },
+  "right_femur": {
+    "Colo": {
+      "bmd": 0.699,
+      "young_adult_percent": 67,
+      "t_score": -2.4,
+      "age_matched_percent": 75,
+      "z_score": -1.7
+    },
+    "Wards": {
+      "bmd": 0.714,
+      "young_adult_percent": 78,
+      "t_score": -1.5,
+      "age_matched_percent": 96,
+      "z_score": -0.3
+    },
+    "Troc.": {
+      "bmd": 0.571,
+      "young_adult_percent": 67,
+      "t_score": -2.4,
+      "age_matched_percent": 75,
+      "z_score": -1.7
+    },
+    "Diáfise": {
+      "bmd": 0.931,
+      "young_adult_percent": null,
+      "t_score": null,
+      "age_matched_percent": null,
+      "z_score": null
+    },
+    "Total": {
+      "bmd": 0.755,
+      "young_adult_percent": 75,
+      "t_score": -2.0,
+      "age_matched_percent": 80,
+      "z_score": -1.5
+    }
+  },
+  "lumbar_spine": {
+    "L1": {
+      "bmd": 0.685,
+      "young_adult_percent": 61,
+      "t_score": -3.7,
+      "age_matched_percent": 67,
+      "z_score": -2.8
+    },
+    "L2": {
+      "bmd": 0.842,
+      "young_adult_percent": 70,
+      "t_score": -3.0,
+      "age_matched_percent": 77,
+      "z_score": -2.1
+    },
+    "L3": {
+      "bmd": 0.85,
+      "young_adult_percent": 71,
+      "t_score": -2.9,
+      "age_matched_percent": 78,
+      "z_score": -2.0
+    },
+    "L4": {
+      "bmd": 0.989,
+      "young_adult_percent": 82,
+      "t_score": -1.8,
+      "age_matched_percent": 91,
+      "z_score": -0.8
+    },
+    "L1-L2": {
+      "bmd": 0.771,
+      "young_adult_percent": 66,
+      "t_score": -3.3,
+      "age_matched_percent": 73,
+      "z_score": -2.3
+    },
+    "L1-L3": {
+      "bmd": 0.802,
+      "young_adult_percent": 69,
+      "t_score": -3.1,
+      "age_matched_percent": 76,
+      "z_score": -2.1
+    },
+    "L1-L4": {
+      "bmd": 0.851,
+      "young_adult_percent": 72,
+      "t_score": -2.7,
+      "age_matched_percent": 80,
+      "z_score": -1.8
+    },
+    "L2-L3": {
+      "bmd": 0.846,
+      "young_adult_percent": 71,
+      "t_score": -2.9,
+      "age_matched_percent": 78,
+      "z_score": -2.0
+    },
+    "L2-L4": {
+      "bmd": 0.893,
+      "young_adult_percent": 74,
+      "t_score": -2.6,
+      "age_matched_percent": 82,
+      "z_score": -1.6
+    }
+  },
+  "comments": null,
+  "ocr_metadata": {
+    "engine": "paddleocr",
+    "pages_processed": 2,
+    "pages_skipped": 2,
+    "confidence_notes": [],
+    "warnings": []
+  }
+}

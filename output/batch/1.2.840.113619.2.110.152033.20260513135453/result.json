@@ -1,0 +1,124 @@
+{
+  "patient_info": {
+    "name": "\" MARGARIDA MARIA DE MENEZES",
+    "birth_date": "15/02/1960",
+    "age": "66.2",
+    "sex": null,
+    "ethnicity": null,
+    "height_cm": 157.0,
+    "weight_kg": 100.0,
+    "physician": "WAYDSON",
+    "measured_at": "13/05/2026 13:54:53",
+    "analyzed_at": null
+  },
+  "right_femur": {
+    "Colo": {
+      "bmd": 0.797,
+      "young_adult_percent": 77,
+      "t_score": -1.7,
+      "age_matched_percent": 85,
+      "z_score": -1.0
+    },
+    "Wards": {
+      "bmd": 0.85,
+      "young_adult_percent": 93,
+      "t_score": -0.5,
+      "age_matched_percent": 113,
+      "z_score": 0.8
+    },
+    "Troc.": {
+      "bmd": 0.947,
+      "young_adult_percent": 111,
+      "t_score": 0.8,
+      "age_matched_percent": 116,
+      "z_score": 1.1
+    },
+    "Diáfise": {
+      "bmd": 1.206,
+      "young_adult_percent": null,
+      "t_score": null,
+      "age_matched_percent": null,
+      "z_score": null
+    },
+    "Total": {
+      "bmd": 1.043,
+      "young_adult_percent": 104,
+      "t_score": 0.3,
+      "age_matched_percent": 109,
+      "z_score": 0.7
+    }
+  },
+  "lumbar_spine": {
+    "L1": {
+      "bmd": 1.162,
+      "young_adult_percent": 103,
+      "t_score": 0.3,
+      "age_matched_percent": 108,
+      "z_score": 0.7
+    },
+    "L2": {
+      "bmd": 1.055,
+      "young_adult_percent": 88,
+      "t_score": -1.2,
+      "age_matched_percent": 92,
+      "z_score": -0.8
+    },
+    "L3": {
+      "bmd": 1.036,
+      "young_adult_percent": 86,
+      "t_score": -1.4,
+      "age_matched_percent": 90,
+      "z_score": -0.6
+    },
+    "L4": {
+      "bmd": 1.202,
+      "young_adult_percent": 100,
+      "t_score": 0.0,
+      "age_matched_percent": 105,
+      "z_score": 0.5
+    },
+    "L1-L2": {
+      "bmd": 1.113,
+      "young_adult_percent": 96,
+      "t_score": -0.4,
+      "age_matched_percent": 100,
+      "z_score": 0.0
+    },
+    "L1-L3": {
+      "bmd": 1.084,
+      "young_adult_percent": 93,
+      "t_score": -0.7,
+      "age_matched_percent": 97,
+      "z_score": -0.3
+    },
+    "L1-L4": {
+      "bmd": 1.117,
+      "young_adult_percent": 95,
+      "t_score": -0.5,
+      "age_matched_percent": 99,
+      "z_score": -0.1
+    },
+    "L2-L3": {
+      "bmd": 1.044,
+      "young_adult_percent": 87,
+      "t_score": -1.3,
+      "age_matched_percent": 91,
+      "z_score": -0.6
+    },
+    "L2-L4": {
+      "bmd": 1.102,
+      "young_adult_percent": 92,
+      "t_score": -0.8,
+      "age_matched_percent": 96,
+      "z_score": -0.4
+    }
+  },
+  "comments": null,
+  "ocr_metadata": {
+    "engine": "paddleocr",
+    "pages_processed": 2,
+    "pages_skipped": 2,
+    "confidence_notes": [],
+    "warnings": []
+  }
+}

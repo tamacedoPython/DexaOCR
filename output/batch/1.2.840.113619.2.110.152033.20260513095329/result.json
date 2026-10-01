@@ -1,0 +1,124 @@
+{
+  "patient_info": {
+    "name": "CLEONICE MARIA DA SILVA ALVES",
+    "birth_date": "18/12/1966",
+    "age": "59.4",
+    "sex": null,
+    "ethnicity": null,
+    "height_cm": 155.0,
+    "weight_kg": 70.5,
+    "physician": "WAYDSON",
+    "measured_at": "13/05/2026 09:53:29",
+    "analyzed_at": null
+  },
+  "right_femur": {
+    "Colo": {
+      "bmd": 0.915,
+      "young_adult_percent": 88,
+      "t_score": -0.6,
+      "age_matched_percent": 103,
+      "z_score": 0.2
+    },
+    "Wards": {
+      "bmd": 0.702,
+      "young_adult_percent": 77,
+      "t_score": -1.6,
+      "age_matched_percent": 97,
+      "z_score": -0.2
+    },
+    "Troc.": {
+      "bmd": 0.831,
+      "young_adult_percent": 98,
+      "t_score": -0.2,
+      "age_matched_percent": 109,
+      "z_score": 0.6
+    },
+    "Diáfise": {
+      "bmd": 1.197,
+      "young_adult_percent": null,
+      "t_score": null,
+      "age_matched_percent": null,
+      "z_score": null
+    },
+    "Total": {
+      "bmd": 1.014,
+      "young_adult_percent": 101,
+      "t_score": 0.0,
+      "age_matched_percent": 111,
+      "z_score": 0.8
+    }
+  },
+  "lumbar_spine": {
+    "L1": {
+      "bmd": 0.995,
+      "young_adult_percent": 88,
+      "t_score": -1.1,
+      "age_matched_percent": 98,
+      "z_score": -0.2
+    },
+    "L2": {
+      "bmd": 1.091,
+      "young_adult_percent": 91,
+      "t_score": -0.6,
+      "age_matched_percent": 101,
+      "z_score": 0.0
+    },
+    "L3": {
+      "bmd": 1.116,
+      "young_adult_percent": 93,
+      "t_score": -0.7,
+      "age_matched_percent": 103,
+      "z_score": 0.3
+    },
+    "L4": {
+      "bmd": 1.122,
+      "young_adult_percent": 93,
+      "t_score": -0.7,
+      "age_matched_percent": 103,
+      "z_score": 0.3
+    },
+    "L1-L2": {
+      "bmd": 1.044,
+      "young_adult_percent": 90,
+      "t_score": -1.0,
+      "age_matched_percent": 99,
+      "z_score": -0.1
+    },
+    "L1-L3": {
+      "bmd": 1.066,
+      "young_adult_percent": 91,
+      "t_score": -0.6,
+      "age_matched_percent": 101,
+      "z_score": 0.1
+    },
+    "L1-L4": {
+      "bmd": 1.08,
+      "young_adult_percent": 92,
+      "t_score": -0.8,
+      "age_matched_percent": 101,
+      "z_score": 0.1
+    },
+    "L2-L3": {
+      "bmd": 1.102,
+      "young_adult_percent": 92,
+      "t_score": -0.8,
+      "age_matched_percent": 102,
+      "z_score": 0.1
+    },
+    "L2-L4": {
+      "bmd": 1.109,
+      "young_adult_percent": 92,
+      "t_score": -0.8,
+      "age_matched_percent": 102,
+      "z_score": 0.2
+    }
+  },
+  "comments": null,
+  "ocr_metadata": {
+    "engine": "paddleocr",
+    "pages_processed": 2,
+    "pages_skipped": 2,
+    "confidence_notes": [],
+    "warnings": []
+  }
+}

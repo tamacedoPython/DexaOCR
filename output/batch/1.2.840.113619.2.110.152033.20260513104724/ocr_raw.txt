@@ -1,0 +1,125 @@
+=== image_003 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao Veras de Sigueira,  aln Prnmavera, bK  Salgueiro-pE
+Fone (87)3871-8900
+Paciente: ", MARIA ELIANE FIGUEIRA QUEZADO ID Estabelecimento:
+Data de Nascimento: 28/08/1968 57,7 anos Médico que WAYDSON
+Altura / Peso: 162,0 cm 65,0 kg Medido: 13/05/2026 10:47:24 (13,60)
+7CUCfSv7 C
+
+--- site_title ---
+2020 LOCILT
+Referencia de lDensitometria: Iotal :dBNlD)
+YA T-score Pontuacao Z AM
+
+--- table_header ---
+Regiao (g/cm2) (%) T-score (%) Z-score
+Colo 0,658 63 -2,7 75 -1,6
+Wards 0,613 67 -2,3 85 -0,8
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+Colo 0,658 63 -2,7 75 -1,6
+Wards 0,613 67 -2,3 85 -0,8
+Troc. 0,593 70 -2,2 79 -1,4
+Diäfise 1,037
+Total 0,810 80 -1,6 89 -0,8
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1Dp ( 0,012 g/cm2 para
+Fémur direito Total
+2 -EUA (Combinacao NHANES (idades 20-30) / Lunar (idades 20-40)) Femur Populacäo de
+Referéncia (v112)
+3 -Correspondéncia em Idade, Peso (mulheres 25-100 kg), Etnia
+
+--- comments ---
+
+
+--- footnotes ---
+ Imageminao destinada a diagnöstico  -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00112 g/cm2ipara
+iFémur(áireito Total)
+0:60x1,20 18/4:%Gordura=33:9%
+Referéncia(v112)
+0:000/000/0010/00 3 -Gorrespondéndia em Idade, Reso((mtilheres:25-i100ikg), Etnia
+Angulo do(adlo (graus)= s5
+(6 -BMD ipadronizadaipara Total é762img/cm2.
+Nome de arquivo: 75azet39b5:ntx
+IModode yarredura: Padrao 200IGy 11 rganizacaolMundialde Saude- Definicao de@steoporoseieiasteopeniaiparalMulheres
+Brancas: iNormal = T-scoreiigualou :superiora-i0sD asteopenia = T scoreentre-t:0e 2 5
+SD asteoporose = T saoreiigualou inferiora 2/5 SD i(As definigoes da(oMS:saoiaplicäveis
+apenas iquandoéusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável
+Ipara(determinarios T scores.)
+
+--- _manufacturer ---
+ge
+
+=== image_004 ===
+--- header ---
+UPAE-DENSITOMETRIA
+
+--- patient_info ---
+Rua Joao Veras de Sigueira,  aln Prnmavera, bK  Salgueiro-pE
+Fone (87)3871-8900
+Paciente: ", MARIA ELIANE FIGUEIRA QUEZADO ID Estabelecimento:
+Data de Nascimento: 28/08/1968 57,7 anos Médico que WAYDSON
+Altura / Peso: 162,0 cm 65,0 kg Medido: 13/05/2026 10:51:51 (13,60)
+
+--- site_title ---
+Referencia de IDensitometria: lL2-L4 (BMD)
+YA T-score Pontuag&o Z AM
+
+--- table_header ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiäo (g/cm2) (%) T-score (%) Z-score
+L1 0,724 64 -3,4 72 -2,4
+L2 0,824 69 -3,1 76 -2,1
+L3 0,892 74 -2,6 83 -1,6
+L4 0,706 59 -4,1 65 -3,1
+L1-L2 0,774 66 -3,3 74 -2,2
+L1-L3 0,817 70 -2,9 78 -1,9
+L1-L4 0,789 67 -3,3 75 -2,2
+L2-L3 0,860 72 -2,8 80 -1,8
+
+--- table_data ---
+1,6 2 3
+BMD Jovem Adulto Corr. Etaria
+Regiao (g/cm2) (%) T-score (%) Z-score
+L1 0,724 64 -3,4 72 -2,4
+L2 0,824 69 -3,1 76 -2,1
+L3 0,892 74 -2,6 83 -1,6
+L4 0,706 59 -4,1 65 -3,1
+L1-L2 0,774 66 -3,3 74 -2,2
+L1-L3 0,817 70 -2,9 78 -1,9
+L1-L4 0,789 67 -3,3 75 -2,2
+L2-L3 0,860 72 -2,8 80 -1,8
+L2-L4 0,810 68 -3,2 75 -2,2
+1 -Estatisticamente 68% de exames repetidos situam-se dentro de 1Dp ( 0,010 g/cm2 para
+Coluna AP L2-L4)
+2 -EUA (Combinacao NHANES (idades 20-30) / Lunar (idades 20-40)) Coluna AP Populacao de
+Referéncia (v112)
+3 -Correspondéncia em Idade, Peso (mulheres 25-100 kg), Etnia
+
+--- comments ---
+
+
+--- footnotes ---
+Imageminaodestinadaadiagnöstico  -Estatisticamente 68% derexamesirepetidos situam se dentro de 1Dp ( 00l g/cm2ipara
+(Goluna.APiL2-L4)
+0/60xi,20 22,2:%Gordura=40/5% 2-EUA((CombinacaolNHANES(idades 20-30)/ILunar i(idades 20-40)) Gdluna/AP Populacao de
+Referéncia(v112)
+0:00:0/000/0010/00 :3 -Gorrespondéndia em Idade, Reso((mulheres.25-i100ikg), Etnia
+INome de arauivo: 7.5azet39b5:ntx
+(6 -BMD ipadronizadaiparall2-L4é 772mg/cm2.
+IModode warredura: Padrao :20;0Gy
+11 rganizagaolMundialde Saude- Definicao de(osteoporoseie asteopeniaiparalMulheres
+Brancas: iNormal = T-scoreiigualou :superiora-i0sD asteopenia = T scoreentre-t:0e 2 5
+SD asteoporose = T saoreiigualou inferiora 2/5 SD i(As definigoes da(oMS:saoiaplicäveis
+apenas iquandoéusadoumlbanco de dados deireferéndia deimulheribranca jovem e saudável
+Ipara(determinarios T scores.)
+
+--- _manufacturer ---
+ge
