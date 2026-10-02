@@ -207,12 +207,13 @@ class DexaOCRProcessingService:
         all_comments: List[str] = []
 
         for page_texts in report_pages_data:
+            metadata.warnings.extend(page_texts.get("_table_warnings", "").splitlines())
             manufacturer_hint = page_texts.get("_manufacturer", "auto")
             site_result = build_site_result(
                 site_title_text=page_texts.get("site_title", ""),
                 table_header_text=page_texts.get("table_header", ""),
                 table_data_text=page_texts.get("table_data", ""),
-                table_format_hint=manufacturer_hint,
+                table_format_hint=page_texts.get("_table_format", manufacturer_hint),
             )
             if site_result:
                 existing = next((s for s in sites if s.site_type == site_result.site_type), None)
