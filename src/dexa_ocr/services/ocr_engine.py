@@ -13,6 +13,7 @@ import numpy as np
 
 from ..config import Settings
 from ..utils.logger import get_logger
+from .table_geometry import OCRToken
 
 log = get_logger("ocr_engine")
 
@@ -23,6 +24,10 @@ log = get_logger("ocr_engine")
 
 class OCREngine(abc.ABC):
     """Interface base para engines OCR."""
+
+    def recognize_tokens(self, image: np.ndarray, *, lang: str = "", psm: int = 6) -> list[OCRToken]:
+        """Read text with boxes. Engines without boxes must not guess score columns."""
+        raise NotImplementedError("Engine does not provide positioned OCR tokens")
 
     @abc.abstractmethod
     def recognize(self, image: np.ndarray, *, psm: int = 6, lang: str = "", whitelist: str = "") -> str:
@@ -70,6 +75,18 @@ class TesseractEngine(OCREngine):
     def name(self) -> str:
         return "tesseract"
 
+    def recognize_tokens(self, image: np.ndarray, *, lang: str = "", psm: int = 6) -> list[OCRToken]:
+        data = self._pytesseract.image_to_data(
+            image, lang=lang or self._default_lang, config=f"--oem 3 --psm {psm}",
+            output_type=self._pytesseract.Output.DICT,
+        )
+        return [OCRToken(
+            text.strip(), float(data["left"][i]), float(data["top"][i]),
+            float(data["left"][i] + data["width"][i]),
+            float(data["top"][i] + data["height"][i]),
+            float(data["conf"][i]) / 100.0,
+        ) for i, text in enumerate(data["text"]) if text.strip()]
+
     def recognize(self, image: np.ndarray, *, psm: int = 6, lang: str = "", whitelist: str = "") -> str:
         lang = lang or self._default_lang
         config_parts = [f"--oem 3 --psm {psm}"]
@@ -106,6 +123,13 @@ class PaddleOCREngine(OCREngine):
         return "paddleocr"
 
     def recognize(self, image: np.ndarray, *, psm: int = 6, lang: str = "", whitelist: str = "") -> str:
+        tokens = self.recognize_tokens(image, lang=lang, classify_orientation=True)
+        return self._group_into_lines([
+            (token.left, token.top, token.text) for token in tokens if token.confidence >= 0.65
+        ])
+
+    def recognize_tokens(self, image: np.ndarray, *, lang: str = "", psm: int = 6,
+                         classify_orientation: bool = False) -> list[OCRToken]:
         import cv2
 
         # PaddleOCR requires 3-channel BGR images
@@ -113,19 +137,19 @@ class PaddleOCREngine(OCREngine):
             image = cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
 
         try:
-            result = self._ocr.ocr(image, cls=True)
+            # The page/table is already upright. Rotating individual numeric
+            # boxes can turn -0.9 into 6'0- and corrupt a valid score.
+            result = self._ocr.ocr(image, cls=classify_orientation)
         except TypeError:
             # PaddleOCR >= 3.x removed cls kwarg
             result = self._ocr.ocr(image)
         if not result or not result[0]:
-            return ""
+            return []
 
         first = result[0]
 
-        # Collect (x_min, y_min, text) for each detection
-        detections: list[tuple[float, float, str]] = []
-
-        _CONF_THRESHOLD = 0.65
+        # Preserve boxes and confidence, including low-confidence placeholders.
+        detections: list[OCRToken] = []
 
         if isinstance(first, dict):
             # v3 dict-style result
@@ -136,12 +160,10 @@ class PaddleOCREngine(OCREngine):
                 if not text:
                     continue
                 conf = scores[i] if i < len(scores) else 1.0
-                if conf < _CONF_THRESHOLD:
-                    log.debug("PaddleOCR v3: descartando '%s' (conf=%.2f < %.2f)", text, conf, _CONF_THRESHOLD)
-                    continue
                 x_min = min(pt[0] for pt in poly)
                 y_min = min(pt[1] for pt in poly)
-                detections.append((x_min, y_min, text))
+                detections.append(OCRToken(text, x_min, y_min,
+                    max(pt[0] for pt in poly), max(pt[1] for pt in poly), float(conf)))
         else:
             # v2 list-style result: list of [bbox, (text, conf)]
             for line_info in first:
@@ -153,17 +175,12 @@ class PaddleOCREngine(OCREngine):
                 conf = text_conf[1] if len(text_conf) > 1 else 1.0
                 if not text:
                     continue
-                if conf < _CONF_THRESHOLD:
-                    log.debug("PaddleOCR v2: descartando '%s' (conf=%.2f < %.2f)", text, conf, _CONF_THRESHOLD)
-                    continue
                 x_min = min(pt[0] for pt in bbox)
                 y_min = min(pt[1] for pt in bbox)
-                detections.append((x_min, y_min, text))
+                detections.append(OCRToken(text, x_min, y_min,
+                    max(pt[0] for pt in bbox), max(pt[1] for pt in bbox), float(conf)))
 
-        if not detections:
-            return ""
-
-        return self._group_into_lines(detections)
+        return detections
 
     @staticmethod
     def _group_into_lines(

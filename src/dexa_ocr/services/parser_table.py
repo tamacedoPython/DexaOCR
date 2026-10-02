@@ -206,7 +206,8 @@ def parse_measurement_table(
     site_type : str
         Tipo de sítio ("lumbar_spine", "right_femur", etc.).
     table_format : str
-        Formato da tabela: 'ge' (padrão) ou 'hologic'.
+        Formato da tabela: 'ge' (cinco células), 'ge_compact' (DMO/T/Z)
+        ou 'hologic' (sete células). Linhas incompletas não fornecem scores.
 
     Returns
     -------
@@ -312,9 +313,27 @@ def _parse_table_line(
 
     row = MeasurementRow(region=region)
 
-    if table_format == "hologic":
+    if table_format not in ("ge", "ge_compact", "hologic"):
+        log.warning("Formato de tabela desconhecido: %s", table_format)
+        return None
+
+    expected = {"ge": 5, "ge_compact": 3, "hologic": 7}[table_format]
+    # Read one extra value to detect overflow; never truncate and silently
+    # assign shifted scores when OCR loses or adds a cell.
+    values = _extract_numeric_values(tokens, max_values=expected + 1)
+    if len(values) != expected:
+        log.warning("Linha %s: %d células, esperado %d; scores omitidos para revisão",
+                    region, len(values), expected)
+        if table_format.startswith("ge") and values:
+            row.bmd = _validated_bmd(values[0])
+        return row
+
+    if table_format == "ge_compact":
+        row.bmd = _validated_bmd(values[0])
+        row.t_score = _validated_score(values[1])
+        row.z_score = _validated_score(values[2])
+    elif table_format == "hologic":
         # Colunas Hologic: Área(0)  CMO(1)  DMO(2)  EscoreT(3)  PR%(4)  EscoreZ(5)  AM%(6)
-        values = _extract_numeric_values(tokens, max_values=7)
         if len(values) >= 3:
             row.bmd = _validated_bmd(values[2])                        # DMO [g/cm²]
         if len(values) >= 4:
@@ -327,7 +346,6 @@ def _parse_table_line(
             row.age_matched_percent = _validated_percent(values[6])    # AM (pareado por idade)
     else:
         # Colunas GE: BMD(0)  %JA(1)  T-score(2)  %AM(3)  Z-score(4)
-        values = _extract_numeric_values(tokens, max_values=5)
         if len(values) >= 1:
             row.bmd = _validated_bmd(values[0])
         if len(values) >= 2:
@@ -612,6 +630,24 @@ def build_site_result(
         table_format = _detect_table_format(f"{table_header_text}\n{table_data_text}")
     else:
         table_format = table_format_hint
+    # Text-only callers can explicitly describe the compact GE schema.
+    # Production uses spatially verified, canonical five-column rows.
+    if table_format == "ge":
+        header = table_header_text.lower()
+        if (re.search(r"\b(?:bmd|dmo)\b", header)
+                and re.search(r"\bt[\s-]*score\b", header)
+                and re.search(r"\bz[\s-]*score\b", header)
+                and "%" not in header):
+            pattern = _LUMBAR_PATTERN if "lumbar" in site_type else (
+                _FOREARM_PATTERN if "forearm" in site_type else _FEMUR_PATTERN)
+            counts = []
+            for line in _strip_trend_section(table_data_text).splitlines():
+                match = pattern.search(line)
+                if match:
+                    counts.append(len(_extract_numeric_values(
+                        fix_ocr_chars(line[match.end():]).split(), max_values=8)))
+            if counts and all(n == 3 for n in counts):
+                table_format = "ge_compact"
     log.debug("Formato de tabela: %s (hint=%s)", table_format, table_format_hint)
 
     rows = parse_measurement_table(table_data_text, site_type, table_format=table_format)

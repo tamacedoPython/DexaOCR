@@ -40,6 +40,7 @@ from .services.ocr_engine import create_engine, get_ocr_params, OCREngine
 from .services.parser_header import parse_patient_info
 from .services.parser_table import build_site_result
 from .services.parser_comments import parse_comments
+from .services.table_reader import read_positioned_table
 from .services.exporter import save_outputs
 from .utils.logger import setup_logging, get_logger
 from .utils.image_utils import draw_rois_debug, save_debug_image
@@ -166,6 +167,8 @@ def process_report_page(
 
     texts: dict[str, str] = {}
     for roi_name, roi_img in roi_images.items():
+        if roi_name in ("table_header", "table_data"):
+            continue  # Table headers and cells must share a coordinate system.
         # Pré-processar com pipeline específico ao fabricante
         preprocess_fn = preprocess_map.get(roi_name, preprocess_for_header)
         processed = preprocess_fn(roi_img)
@@ -186,6 +189,18 @@ def process_report_page(
         else:
             log.debug("OCR [%s/%s]: vazio", page_name, roi_name)
 
+    try:
+        table = read_positioned_table(img, engine, lang=settings.tesseract_lang)
+        texts["table_data"] = table.text
+        texts["_table_warnings"] = "\n".join(table.warnings)
+    except (NotImplementedError, RuntimeError, ValueError) as exc:
+        log.warning("Falha na leitura posicional da tabela: %s", exc)
+        texts["table_data"] = ""
+        texts["_table_warnings"] = "Leitura posicional indisponível; revisão necessária"
+    # Canonical slots are filled from header positions, including explicit '-'
+    # for missing cells. Never fall back to unpositioned text for scores.
+    texts["table_header"] = "Região BMD % T-score % Z-score"
+    texts["_table_format"] = "ge"
     # Preservar fabricante para uso no parsing
     texts["_manufacturer"] = manufacturer
     return texts
@@ -275,6 +290,10 @@ def main() -> int:
         # Processar ROIs
         texts = process_report_page(img, page_name, engine, settings, output_dir, debug)
         all_raw_texts[page_name] = texts
+        if not texts.get("table_data", "").strip():
+            metadata.warnings.extend(texts.get("_table_warnings", "").splitlines())
+            metadata.pages_skipped += 1
+            continue  # Questionnaires/authorization pages must not become patient_info.
         report_pages_data.append(texts)
         metadata.pages_processed += 1
 
@@ -300,12 +319,13 @@ def main() -> int:
     all_comments: list[str] = []
 
     for page_texts in report_pages_data:
+        metadata.warnings.extend(page_texts.get("_table_warnings", "").splitlines())
         manufacturer_hint = page_texts.get("_manufacturer", "auto")
         site_result = build_site_result(
             site_title_text=page_texts.get("site_title", ""),
             table_header_text=page_texts.get("table_header", ""),
             table_data_text=page_texts.get("table_data", ""),
-            table_format_hint=manufacturer_hint,
+            table_format_hint=page_texts.get("_table_format", manufacturer_hint),
         )
         if site_result:
             existing = next((s for s in sites if s.site_type == site_result.site_type), None)
@@ -351,4 +371,3 @@ def main() -> int:
             print(f"  [!] {w}")
 
     return 0
-
