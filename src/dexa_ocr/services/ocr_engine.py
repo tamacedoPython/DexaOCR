@@ -123,12 +123,13 @@ class PaddleOCREngine(OCREngine):
         return "paddleocr"
 
     def recognize(self, image: np.ndarray, *, psm: int = 6, lang: str = "", whitelist: str = "") -> str:
-        tokens = self.recognize_tokens(image, lang=lang)
+        tokens = self.recognize_tokens(image, lang=lang, classify_orientation=True)
         return self._group_into_lines([
             (token.left, token.top, token.text) for token in tokens if token.confidence >= 0.65
         ])
 
-    def recognize_tokens(self, image: np.ndarray, *, lang: str = "", psm: int = 6) -> list[OCRToken]:
+    def recognize_tokens(self, image: np.ndarray, *, lang: str = "", psm: int = 6,
+                         classify_orientation: bool = False) -> list[OCRToken]:
         import cv2
 
         # PaddleOCR requires 3-channel BGR images
@@ -136,7 +137,9 @@ class PaddleOCREngine(OCREngine):
             image = cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
 
         try:
-            result = self._ocr.ocr(image, cls=True)
+            # The page/table is already upright. Rotating individual numeric
+            # boxes can turn -0.9 into 6'0- and corrupt a valid score.
+            result = self._ocr.ocr(image, cls=classify_orientation)
         except TypeError:
             # PaddleOCR >= 3.x removed cls kwarg
             result = self._ocr.ocr(image)

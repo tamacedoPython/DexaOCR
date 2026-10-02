@@ -143,3 +143,43 @@ def test_incomplete_or_extra_text_cells_never_shift_scores(line):
     parsed=parse_measurement_table(line,"right_femur")
     assert parsed[0].bmd==.872
     assert parsed[0].t_score is None and parsed[0].z_score is None
+
+
+def test_multiline_hologic_headers_right_aligned_cells_and_cm0():
+    tokens=[tok("Regiao",20,40),tok("Area",100,30),tok("CM0",180,30),
+        tok("DMO",270,30),tok("Escore",350,30),tok("T",350,45,width=8),
+        tok("PR (pico",450,30,width=80),tok("padrao)",450,45,width=75),
+        tok("Escore",550,30),tok("Z",550,45,width=8),
+        tok("AM (pareado por",650,30,width=120),tok("idade)",650,45,width=70)]
+    for y,name,bmd,t,z in [(80,"L1","0.812","-1.7","-0.3"),
+                           (105,"12","0.845","-1.4","0.2"),
+                           (130,"13","0.890","-1.0","0.4"),
+                           (155,"14","0.930","-0.7","0.9")]:
+        tokens += [tok(name,20,y,width=15),tok("11.1",120,y),tok("8.0",195,y),
+            tok(bmd,295,y),tok(t,370,y),tok("80",480,y),tok(z,570,y),tok("99",700,y)]
+    result, parsed=rows(tokens)
+    # Read as lumbar to check the normalization of OCR '12'/'13'/'14'.
+    parsed=parse_measurement_table(result.text,"lumbar_spine")
+    assert [r.region for r in parsed]==["L1","L2","L3","L4"]
+    assert [r.bmd for r in parsed]==[.812,.845,.890,.930]
+    assert [r.t_score for r in parsed]==[-1.7,-1.4,-1.0,-.7]
+    assert all(r.young_adult_percent==80 and r.age_matched_percent==99 for r in parsed)
+
+
+def test_two_numeric_tokens_in_a_cell_are_not_concatenated():
+    tokens=fixture()+[tok("1",440,125,width=5)]
+    result,parsed=rows(tokens)
+    assert parsed[0].z_score is None
+    assert result.warnings
+
+
+def test_inverted_numeric_token_is_rejected_not_guessed():
+    tokens=[tok("6'0-",t.x,t.y) if t.x==300 and t.y==125 else t for t in fixture()]
+    result,parsed=rows(tokens)
+    assert parsed[0].t_score is None and parsed[0].z_score==-.1
+
+
+def test_numeric_vertebra_label_without_lumbar_evidence_is_not_guessed():
+    tokens=[tok("12",t.x,t.y) if t.text in ("Colo","Total") else t for t in fixture()]
+    result=extract_table(tokens)
+    assert not result.text

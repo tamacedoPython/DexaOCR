@@ -290,6 +290,10 @@ def main() -> int:
         # Processar ROIs
         texts = process_report_page(img, page_name, engine, settings, output_dir, debug)
         all_raw_texts[page_name] = texts
+        if not texts.get("table_data", "").strip():
+            metadata.warnings.extend(texts.get("_table_warnings", "").splitlines())
+            metadata.pages_skipped += 1
+            continue  # Questionnaires/authorization pages must not become patient_info.
         report_pages_data.append(texts)
         metadata.pages_processed += 1
 
@@ -367,4 +371,3 @@ def main() -> int:
             print(f"  [!] {w}")
 
     return 0
-

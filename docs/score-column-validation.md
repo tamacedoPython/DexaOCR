@@ -26,7 +26,7 @@ revisão; esta alteração não cria um novo status no protocolo RabbitMQ.
 
 ## Validação realizada
 
-`python -m pytest -q`: 144 testes passaram no ambiente de desenvolvimento.
+`python -m pytest -q`: 151 testes passaram no ambiente de desenvolvimento.
 
 Cobertura nova: tabelas compactas e com percentuais; mudanças de escala e
 posição; colunas T/Z reordenadas; scores positivos; células ausentes ou de baixa
@@ -39,8 +39,53 @@ locais. O OCR Tesseract ainda apresentou erros de caracteres nessas imagens de
 baixa resolução, especialmente sinais de menos e alguns dígitos. Portanto,
 os testes acima demonstram a correção da associação de colunas, mas **não
 certificam a transcrição completa dos anexos nem de equipamentos arbitrários**.
-O PaddleOCR real e o serviço Windows não foram executados neste ambiente.
+Na etapa inicial, o PaddleOCR real não havia sido executado. A validação com
+DICOMs originais abaixo resolve essa pendência para os layouts recebidos.
+O serviço Windows não foi executado neste ambiente.
 Nenhum dado identificável de paciente foi incluído nas fixtures.
+
+## Validação adicional com DICOMs originais — 2026-10-02
+
+Foram recebidos 18 DICOMs de três estudos, abrangendo GE Lunar com tabelas
+compactas, GE Lunar com percentuais e Hologic Horizon. São 10 páginas com
+tabelas (incluindo duplicatas e resultados auxiliares), seis páginas de
+documentos/autorizações e duas imagens anatômicas sem tabela.
+
+Ambiente: Linux, Python 3.12, PaddleOCR 2.10.0, PaddlePaddle 2.6.2, idioma `pt`,
+modelos locais PP-OCRv3. Não houve envio das imagens a uma API externa.
+
+Foi conferida manualmente uma transcrição de referência das tabelas. A leitura
+numérica foi comparada com essa referência tanto na resolução nativa quanto
+após `dicom_to_pil(..., resize_width=2200)`, a conversão padrão do projeto.
+Em cada execução: **61 linhas, 249 valores numéricos, zero divergências**.
+Também foram conferidos os campos nulos; os documentos e imagens sem tabela
+não produziram medições. O escopo é DMO, T-score, Z-score, %JA/PR e %AM;
+área, CMO, largura/altura e informações administrativas não integram essa métrica.
+
+Essa validação revelou e corrigiu:
+
+- Grades Hologic claras sobre fundo cinza, que a busca apenas por bordas
+  escuras não localizava.
+- Cabeçalhos `Escore` e `T/Z` em linhas separadas, `PR (pico padrão)` e
+  `AM (pareado por idade)`, além de valores alinhados à direita.
+- `CM0` no cabeçalho CMO e `12/13/14` no lugar de L2/L3/L4. A recuperação
+  dessas vértebras exige evidência de coluna lombar e alinhamento da região.
+- Rotação indevida de caixas numéricas pelo classificador de orientação do
+  PaddleOCR. A leitura posicional de tabelas já orientadas usa `cls=False`;
+  a leitura de texto comum mantém a classificação de orientação anterior.
+  Tokens numéricos invertidos são recusados, sem tentar adivinhar os dígitos.
+- Dois números dentro da mesma janela não são concatenados.
+- Páginas sem tabela não são mais escolhidas como fonte do cabeçalho do
+  paciente no CLI ou worker. Os avisos continuam disponíveis nos metadados.
+
+Persistem avisos conservadores quando o OCR não detecta os traços de campos
+não informados, como os scores da diáfise; os campos permanecem `null`.
+Os DICOMs, imagens, identificadores e caches de OCR não foram incluídos no Git.
+
+Esta etapa não executou SQL, RabbitMQ nem o serviço Windows. Também não
+certifica layouts ainda não fornecidos, outras versões do OCR ou todos os
+campos demográficos. Antes da implantação, conferir a versão instalada e
+realizar teste no ambiente Windows com os mesmos DICOMs.
 
 ## Próxima validação antes de produção
 

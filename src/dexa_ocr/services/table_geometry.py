@@ -55,9 +55,9 @@ def _header_kind(text: str) -> str | None:
         return "z"
     if re.fullmatch(r"(?:bmd|dmo)(?:gcm2)?[0-9]*", key):
         return "bmd"
-    if re.fullmatch(r"(?:area|cmo|bmc)(?:cm2|g)?[0-9]*", key):
+    if re.fullmatch(r"(?:area|cm[o0]|bmc)(?:cm2|g)?[0-9]*", key):
         return "other"
-    if "%" in text or key in ("pr", "am"):
+    if "%" in text or key in ("pr", "am") or key.startswith(("prpico", "ampareado")):
         return "percent"
     return None
 
@@ -85,6 +85,12 @@ def _headers(tokens: list[OCRToken]) -> list[tuple[str, OCRToken]]:
                 if kind in ("t", "z"):
                     found.append((kind, combined))
                     break
+        # Hologic prints Escore on one line and T/Z on the next line.
+        if _key(t.text) in ("escore", "score"):
+            below = [s for s in tokens if s.confidence >= .4 and _key(s.text) in ("t", "z")
+                     and 0 < s.y-t.y < 2.5*t.height and abs(s.x-t.x) < t.height]
+            if len(below) == 1:
+                found.append((_key(below[0].text), _join([t, below[0]])))
     return found
 
 
@@ -121,8 +127,8 @@ def extract_table(tokens: list[OCRToken]) -> TableExtraction:
     percents = [t for k,t in headers if k == "percent" and abs(t.y-header_y) <= 1.5*h]
     for name in ("t", "z"):
         score = columns[name]
-        explicit = [p for p in percents if _key(p.text) == ("pr" if name == "t" else "am")]
-        nearby = [p for p in percents if _key(p.text) not in ("pr", "am")
+        explicit = [p for p in percents if _key(p.text).startswith("pr" if name == "t" else "am")]
+        nearby = [p for p in percents if not _key(p.text).startswith(("pr", "am"))
                   and columns["bmd"].x < p.x < score.x
                   and not any(p.x < other.x < score.x for other in columns.values())]
         if len(explicit) == 1:
@@ -133,10 +139,14 @@ def extract_table(tokens: list[OCRToken]) -> TableExtraction:
     # score cannot consume a percentage or another score in the same row.
     anchors = list(columns.values()) + [t for k,t in headers if k in ("other", "percent")
                                        and abs(t.y-header_y) <= 5*h]
-    radii = {name: min(3*h, .42*min(abs(t.x-other.x)
-               for other in anchors if abs(t.x-other.x) > 1))
-             for name,t in columns.items()}
-    left_limit = columns["bmd"].x - radii["bmd"]
+    bounds = {}
+    for name, anchor in columns.items():
+        left_neighbors = [t.x for t in anchors if t.x < anchor.x-1]
+        right_neighbors = [t.x for t in anchors if t.x > anchor.x+1]
+        left = max(anchor.left-1.5*h, (anchor.x+max(left_neighbors))/2 if left_neighbors else -float("inf"))
+        right = min(anchor.right+1.5*h, (anchor.x+min(right_neighbors))/2 if right_neighbors else float("inf"))
+        bounds[name] = (left, right)
+    left_limit = bounds["bmd"][0]
     stop = min((t.top for t in tokens if t.top > header_bottom
                 and re.match(r"(?i)^(?:tend[eê]ncia|trend|coment[aá]rios|comments|[1-9]\s*[-–]\s*[A-Za-z])", t.text)),
                default=header_bottom + 40*h)
@@ -149,12 +159,18 @@ def extract_table(tokens: list[OCRToken]) -> TableExtraction:
             lines[-1].append(t)
     previous_y = header_bottom
     rows = []
+    lumbar_labels = [t.x for t in data if t.right < left_limit
+                     and re.fullmatch(r"L[1-4iIl]", t.text, re.IGNORECASE)]
     for line in lines:
         labels = sorted([t for t in line if t.right < left_limit and t.confidence >= .65
-                         and not re.fullmatch(r"[-+]?\d+(?:[.,]\d+)?|-", t.text)], key=lambda t:t.left)
+                         and (not re.fullmatch(r"[-+]?\d+(?:[.,]\d+)?|-", t.text)
+                              or (lumbar_labels and re.fullmatch(r"1[1-4]", t.text)
+                                  and abs(t.x-median(lumbar_labels)) < h))], key=lambda t:t.left)
         region = " ".join(t.text for t in labels).strip().rstrip(".,")
+        if lumbar_labels and re.fullmatch(r"1[1-4]", region):
+            region = "L"+region[1]
         if not region or not any(p.fullmatch(region) for p in (_LUMBAR_PATTERN, _FEMUR_PATTERN, _FOREARM_PATTERN)):
-            if region and any(abs(t.x-columns["bmd"].x) <= radii["bmd"]
+            if region and any(bounds["bmd"][0] < t.x < bounds["bmd"][1]
                               and re.fullmatch(r"\d+[.,]\d+", t.text) for t in line):
                 result.warnings.append("Linha com região anatômica ilegível; revisão necessária")
             continue
@@ -165,9 +181,13 @@ def extract_table(tokens: list[OCRToken]) -> TableExtraction:
         previous_y = y
         cells = {}
         for name, anchor in columns.items():
-            pieces = sorted([t for t in line if abs(t.x-anchor.x) <= radii[name]], key=lambda t:t.left)
+            pieces = sorted([t for t in line if bounds[name][0] < t.x < bounds[name][1]], key=lambda t:t.left)
             value = "".join(t.text.strip() for t in pieces).replace("−", "-").replace("–", "-")
+            # Two numbers in one window are ambiguous, not a concatenated value.
+            separate_numbers = len(pieces) > 1 and not (
+                len(pieces) == 2 and pieces[0].text.strip() in ("-", "+", "−", "–"))
             if (not pieces or any(t.confidence < .65 for t in pieces)
+                    or separate_numbers
                     or not re.fullmatch(r"[-+]?\d+(?:[.,]\d+)?|-", value)):
                 cells[name] = "-"
                 result.warnings.append(f"{region}: célula {name} ausente/ambígua; revisão necessária")

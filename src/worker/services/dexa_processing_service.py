@@ -189,6 +189,10 @@ class DexaOCRProcessingService:
 
             texts = process_report_page(img, page_name, engine, settings, work_dir, debug)
             all_raw_texts[page_name] = texts
+            if not texts.get("table_data", "").strip():
+                metadata.warnings.extend(texts.get("_table_warnings", "").splitlines())
+                metadata.pages_skipped += 1
+                continue
             report_pages_data.append(texts)
             metadata.pages_processed += 1
 
@@ -324,4 +328,3 @@ class DexaOCRProcessingService:
         finally:
             if not return_debug_data:
                 self._cleanup_work_dir(work_dir)
-

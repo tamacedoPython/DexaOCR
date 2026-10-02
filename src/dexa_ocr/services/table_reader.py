@@ -16,8 +16,13 @@ def find_table_boxes(img: np.ndarray) -> list[tuple[int, int, int, int]]:
     """
     gray = img if img.ndim == 2 else cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     height, width = gray.shape
-    bw = cv2.threshold(gray, 120, 255, cv2.THRESH_BINARY_INV)[1]
-    contours, _ = cv2.findContours(bw, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+    # GE has dark frames; Hologic uses white grid lines on a gray background.
+    dark = cv2.threshold(gray, 120, 255, cv2.THRESH_BINARY_INV)[1]
+    light = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY)[1]
+    contours = []
+    for mask in (dark, light):
+        found, _ = cv2.findContours(mask, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+        contours.extend(found)
     boxes = []
     for contour in contours:
         x, y, w, h = cv2.boundingRect(contour)

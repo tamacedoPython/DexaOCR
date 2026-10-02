@@ -18,9 +18,11 @@ def test_paddle_v2_retains_boxes_and_low_confidence_cells():
         [[[40,20],[60,20],[60,30],[40,30]],("-0.1",.99)],
     ]]
     tokens=engine.recognize_tokens(np.zeros((60,80),dtype=np.uint8))
+    assert engine._ocr.ocr.call_args.kwargs["cls"] is False
     assert tokens[0].text=="-1.2" and tokens[0].confidence==.30
     assert tokens[1].left==40
     assert engine.recognize(np.zeros((60,80),dtype=np.uint8))=="-0.1"
+    assert engine._ocr.ocr.call_args.kwargs["cls"] is True
 
 
 def test_paddle_v3_retains_box_and_confidence():
@@ -64,6 +66,15 @@ def test_borderless_page_uses_positioned_full_page_read():
     assert engine.recognize_tokens.call_args.kwargs["psm"]==11
 
 
+def test_white_hologic_frame_is_detected_on_gray_background():
+    import cv2
+    image=np.full((1420,1200,3),128,dtype=np.uint8)
+    cv2.rectangle(image,(411,755),(1187,981),(255,255,255),2)
+    boxes=find_table_boxes(image)
+    assert len(boxes)==1
+    assert abs(boxes[0][0]-411)<3 and abs(boxes[0][1]-755)<3
+
+
 def test_pipeline_uses_canonical_columns_even_for_hologic(monkeypatch,tmp_path):
     import src.dexa_ocr.pipeline as pipeline
     from src.dexa_ocr.services.table_geometry import TableExtraction
@@ -90,6 +101,46 @@ def test_engine_without_boxes_does_not_fall_back_to_unsafe_text(monkeypatch,tmp_
     texts=pipeline.process_report_page(np.zeros((100,100,3),dtype=np.uint8),
         "page",Mock(),SimpleNamespace(roi_strategy="fixed",tesseract_lang="eng"),tmp_path,False)
     assert texts["table_data"]=="" and texts["_table_warnings"]
+
+
+@pytest.mark.parametrize("entrypoint",["cli","worker"])
+def test_nonmeasurement_page_cannot_supply_patient_header(monkeypatch,tmp_path,entrypoint):
+    from src.dexa_ocr.models.dxa_models import PatientInfo
+    from src.dexa_ocr.services.roi_detector import PageType
+    import src.dexa_ocr.pipeline as cli
+    import src.worker.services.dexa_processing_service as worker
+    module=cli if entrypoint=="cli" else worker
+    settings=SimpleNamespace(default_resize_width=2200,png_compress_level=3,dicom_roots=[],
+        default_output_dir=tmp_path,save_debug_images=False,log_level="ERROR",log_file=None)
+    monkeypatch.setattr(module,"export_dicoms_to_png",lambda **kw:[tmp_path/"form.png",tmp_path/"report.png"])
+    monkeypatch.setattr(module,"create_engine",lambda *a:SimpleNamespace(name="test"))
+    monkeypatch.setattr(module.cv2,"imread",lambda p:np.zeros((100,100,3),dtype=np.uint8))
+    monkeypatch.setattr(module,"classify_page",lambda im:PageType.REPORT_PAGE)
+    monkeypatch.setattr(module,"process_report_page",Mock(side_effect=[
+        {"patient_info":"UNRELATED FORM","table_data":"","_table_warnings":"No table"},
+        {"patient_info":"CORRECT HEADER","site_title":"Fêmur direito",
+         "table_header":"BMD % T-score % Z-score","table_data":"Colo 0.872 - -1.2 - -0.1", "_table_format":"ge"}]))
+    patient=Mock(return_value=PatientInfo(name="Anonymous"))
+    monkeypatch.setattr(module,"parse_patient_info",patient)
+    if entrypoint=="cli":
+        args=SimpleNamespace(engine=None,debug=False,output_dir=str(tmp_path),
+                             dicom_file="unused.dcm",study_uid=None,max_images=20)
+        monkeypatch.setattr(module,"build_parser",lambda:SimpleNamespace(parse_args=lambda:args))
+        monkeypatch.setattr(module,"get_settings",lambda:settings)
+        saved=Mock();monkeypatch.setattr(module,"save_outputs",saved)
+        assert module.main()==0
+        report=saved.call_args.args[0]
+    else:
+        from unittest.mock import MagicMock
+        monkeypatch.setattr(module,"DBConnectionManager",MagicMock())
+        monkeypatch.setattr(module,"get_dicom_paths_by_study_uid",lambda *a,**k:[tmp_path/"unused.dcm"])
+        service=module.DexaOCRProcessingService.__new__(module.DexaOCRProcessingService)
+        service._ocr_settings=settings
+        report=service._run_pipeline("test",tmp_path,False)
+    assert patient.call_args.kwargs["patient_text"]=="CORRECT HEADER"
+    assert report.ocr_metadata.pages_processed==1
+    assert report.ocr_metadata.pages_skipped==1
+    assert "No table" in report.ocr_metadata.warnings
 
 
 @pytest.mark.skipif(shutil.which("tesseract") is None, reason="Tesseract binary not installed")
